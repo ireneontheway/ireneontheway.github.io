@@ -1,6 +1,6 @@
-# Man-Machine-Language
+# Technical Communication
 
-The world of language for man and machine.
+The world of man and machine language for better technical communication.
 
 # Blogs
 
