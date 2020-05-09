@@ -10,6 +10,6 @@ The world of man and machine language for better technical communication.
 
 # Platforms
 
-- Wetchart Platfrom: 俗人茶室
+- Wechart Platfrom: 俗人茶室
 - Github: Technical-Communication
 
