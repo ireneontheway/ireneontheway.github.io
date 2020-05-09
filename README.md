@@ -11,5 +11,5 @@ The world of man and machine language for better technical communication.
 # Platforms
 
 - Wetchart Platfrom: 俗人茶室
-- github: https://github.com/ireneontheway/Technical-Communication
+- github: Technical-Communication
 
