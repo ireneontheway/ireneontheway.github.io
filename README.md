@@ -13,7 +13,7 @@ The world of man and machine language for better technical communication.
 - Github: Technical_Communication
 - twitter: @Irenehalo
 
-# column
+# Column
 
 ## Monday: TC_News 
 
