@@ -14,9 +14,6 @@ DITA标签的名称取决于您创建话题的类型，例如<concept>, <task>, 
 
 结构化写作是一种自定义信息组合方式的工作流程。DITA中定义的元素有特殊关系和层级，也定义哪些元素前后联结以及特定元素的数量。其他结构化写作标准：DocBook, S1000D, NLM。
 
-![image-20200524101654249](C:\Users\DELL-BOOK\AppData\Roaming\Typora\typora-user-images\image-20200524101654249.png)
-
-（样例）
 
 - 基于topic的写作
 - 将内容与格式分离
@@ -417,4 +414,5 @@ Reltable对关系的解析通常是 *不会* 显示在写作主题里的。
 <note conref="location.dita#topicid/whatduckslike"/>
 ```
 
-注： 目标元素必须与包含conref属性的元素具有相同的元素类型。比如你只能从一个 <note>元素conref到另一个 <note>元素；你也可以从一个<li>元素conref到另一个<li>元素，等等。
+注： 目标元素必须与包含conref属性的元素具有相同的元素类型。
+比如你只能从一个 <note>元素conref到另一个 <note>元素；你也可以从一个<li>元素conref到另一个<li>元素，等等。
