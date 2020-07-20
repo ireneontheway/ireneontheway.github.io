@@ -6,7 +6,7 @@ DITA的首字母D是达尔文的第一个字母，与进化论作者名字相同
 
 DITA信息开发流程
 
-![](https://github.com/ireneontheway/Technical_Communication/blob/master/1.png)
+![DITA信息开发流程](Picture/1.png)
 
 结构化写作特点：
 
@@ -117,7 +117,7 @@ DITA topic,DITA topic是构建内容的基本模块，不同类型的内容用�
 
 ## LwDITA
 
-![](https://github.com/ireneontheway/Technical_Communication/blob/master/3.png)
+![](Picture/3.png)
 
 轻量级DITA不单纯基于XML的结构化写作。
 

@@ -4,7 +4,7 @@
 
 当重用比较短的信息时，你当然可以使用简单 copy 操作。不过，如果遇到长文字重用，建议你使用 “Single source”. Single source 指的是同一来源，且改变不大的文本，但是交付形式不同。本书中的重用指的就是运用同一来源的信息。你可以设计一个 Topic 然后在不同形式的语境中使用，例如基于 HTML 或者 XML 的信息中心、 基于 Web 的文件、在线帮助或者出版书籍中。下图就详细解释了不同语境的信息重用：
 
-![DQTI_Accuracy_Reuse](D:\APP\Github\Technical_Communication\Picture\DQTI_Accuracy_Reuse.png)
+![DQTI_Accuracy_Reuse](Picture/DQTI_Accuracy_Reuse.png)
 
 只需在 source text 里更新, 不需要在众多版本中逐个更新。使用 “single source” 的另一好处是，假如你的写作工具支持条件文本（conditional text），你可以加入或排除一定的信息。使用条件文本指定特定情况下使用的特点 source 文本，这样提高了多文本信息重用的弹性。
 
@@ -46,23 +46,23 @@
 
   - Grammarly
 
-    ![DQTI_Accuracy_Grammarly](D:\APP\Github\Technical_Communication\Picture\DQTI_Accuracy_Grammarly.png)
+    ![DQTI_Accuracy_Grammarly](Picture/DQTI_Accuracy_Grammarly.png)
 
   - LanguageTool
   
-    ![DQTI_Accuracy_languagetool](D:\APP\Github\Technical_Communication\Picture\DQTI_Accuracy_languagetool.png)
+    ![DQTI_Accuracy_languagetool](Picture/DQTI_Accuracy_languagetool.png)
 
 
 - 代码检测工具：
 
   - Code Spell Checker
   
-    ![DQTI_Accuracy_CodeSpellChecker](D:\APP\Github\Technical_Communication\Picture\DQTI_Accuracy_CodeSpellChecker.png)
+    ![DQTI_Accuracy_CodeSpellChecker](Picture/DQTI_Accuracy_CodeSpellChecker.png)
   
 - 专业翻译工具的质检功能
   - Yicat
   
-    ![DQTI_Accuracy_Yicat](D:\APP\Github\Technical_Communication\Picture\DQTI_Accuracy_Yicat.png)可以巧用专业计算机辅助翻译工具术语库的功能，建立属于自己的术语库，但要注意添加术语的准确性。
+    ![DQTI_Accuracy_Yicat](Picture/DQTI_Accuracy_Yicat.png)可以巧用专业计算机辅助翻译工具术语库的功能，建立属于自己的术语库，但要注意添加术语的准确性。
   
 
 ## 检查相关参考信息的准确性
@@ -75,13 +75,13 @@
 
 使用链接检测工具有利于找出死链及时修改，如github的插件CircleCI:
 
-![DQTI_Accuracy_Linkcheck](D:\APP\Github\Technical_Communication\Picture\DQTI_Accuracy_Linkcheck.png)
+![DQTI_Accuracy_Linkcheck](Picture/DQTI_Accuracy_Linkcheck.png)
 
  # DQTI 之 Accuracy 总结
 
 保证文本准确性就是建立用户信任的基石。Accuracy 章节讲述了保证信息准确的几个要点：
 
-![DQTI_Accuracy_sum](D:\APP\Github\Technical_Communication\Picture\DQTI_Accuracy_sum.png)
+![DQTI_Accuracy_sum](Picture/DQTI_Accuracy_sum.png)
 
 
 
