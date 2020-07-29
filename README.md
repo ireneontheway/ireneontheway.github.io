@@ -15,17 +15,17 @@ The world of man and machine language for better technical communication.
 
 # Column
 
-## Monday: TC_News 
+## TC_News 
 
 - Technology：information technology, hot products, latest news
 - Communication：UX, product manager, media
 
-## Wednesday: TCers 
+## TCers 
 
 - TCer development 
 - TC development 
 
-## Friday: TC_Paper 
+## TC_Paper 
 
 Paper, Lecture, Public resource about:
 - technical writing
