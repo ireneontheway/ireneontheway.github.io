@@ -5,7 +5,7 @@
 Fork my repo on [GitHub](https://github.com/ireneontheway/ireneontheway.github.io) and clone it.
 
 ## Write articles
-The document is written under `./src`, you can use mdbook to preview.
+The articles is written under `./src`, you can use mdbook to preview.
 Mdbook is [here](https://mdbook.budshome.com).
 
 
