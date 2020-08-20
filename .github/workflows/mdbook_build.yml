@@ -15,4 +15,4 @@ jobs:
         with:
           mdbook-version: 'latest'
 
-      - run: mdbook build docs
+      - run: mdbook build
