@@ -93,7 +93,7 @@
 
 以上就是 Task orientation 的主要内容， DQTI 这本书还在章节末整理了主要的写作规范供各位参考：
 
-![img](https://github.com/ireneontheway/Technical_Communication/blob/master/DQTI_Task_Orientation.png)
+![img](https://github.com/ireneontheway/Technical_Communication/blob/master/Picture/DQTI_Task_Orientation.png)
 
 
 
