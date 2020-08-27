@@ -7,9 +7,13 @@ The world of man and machine language for better technical communication.
 - Knowledge about Technical Communication, Natural Language, Machine Language, etc.
 - News about technology, language, markets, etc.
 
+# Contribution
+
+[Contribution](src/contribution/index.md)
+
 # Platforms
 
-- Wechart Platfrom: 俗人茶室
+- Wechat Platfrom: 俗人茶室
 - Github: Technical_Communication
 - twitter: @Irenehalo
 
