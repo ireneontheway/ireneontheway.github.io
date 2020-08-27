@@ -2,7 +2,7 @@ name: Docs
 
 on:
   pull_request:
-    branches: [master]
+    branches: [ master ]
 
 jobs:
   build_doc:
@@ -14,9 +14,4 @@ jobs:
         uses: peaceiris/actions-mdbook@v1
         with:
           mdbook-version: 'latest'
-
-<<<<<<< HEAD
       - run: mdbook build
-=======
-      - run: mdbook build docs
->>>>>>> c38889c... feat: add mdbook
