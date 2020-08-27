@@ -17,9 +17,6 @@
     * [DQTI Task Orientation](TC_Paper/TC_Paper_DQTI_task_orientation.md)
     * [DQTI Task Orientation02](TC_Paper/TC_Paper_DQTI_task_orientation02.md)
     * [简明英文写作之ASD-STE100的写作规则有哪些](TC_Paper/TC_Paper_简明英文写作之ASD-STE100的写作规则有哪些.md)
-<<<<<<< HEAD
 
 * [TCer](TCer/index.md)
     * [思源华为杯创译大赛创作思路](TCer/思源华为杯创译大赛创作思路.md)
-=======
->>>>>>> c38889c... feat: add mdbook
