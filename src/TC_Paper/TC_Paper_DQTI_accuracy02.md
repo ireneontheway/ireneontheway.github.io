@@ -51,6 +51,10 @@
   - LanguageTool
   
     ![DQTI_Accuracy_languagetool](../images/DQTI_Accuracy_languagetool.png)
+<<<<<<< HEAD:src/TC_Paper/TC_Paper_DQTI_accuracy02.md
+=======
+
+>>>>>>> c38889c... feat: add mdbook:TC_Paper/TC_Paper_DQTI_accuracy02.md
 
 - 代码检测工具：
 

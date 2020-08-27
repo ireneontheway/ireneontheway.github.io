@@ -15,10 +15,18 @@ jobs:
         with:
           mdbook-version: 'latest'
 
+<<<<<<< HEAD
       - run: mdbook build
+=======
+      - run: mdbook build docs
+>>>>>>> c38889c... feat: add mdbook
 
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{secrets.DEPLOY_KEY}}
+<<<<<<< HEAD
           publish_dir: ./book
+=======
+          publish_dir: ./docs/book
+>>>>>>> c38889c... feat: add mdbook
