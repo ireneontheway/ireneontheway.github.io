@@ -17,6 +17,9 @@ jobs:
 
       - run: mdbook build
 
+      - name: Copy CNAME
+        run: cp ./CNAME ./book
+
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
