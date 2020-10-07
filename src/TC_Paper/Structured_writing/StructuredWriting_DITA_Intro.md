@@ -6,7 +6,7 @@ DITA的首字母D是达尔文的第一个字母，与进化论作者名字相同
 
 DITA信息开发流程
 
-![DITA信息开发流程](../images/1.png)
+![DITA信息开发流程](/src/images/1.png)
 
 结构化写作特点：
 
