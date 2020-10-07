@@ -2,7 +2,7 @@
 
 [Introduction](index.md)
 
-* [Contribution](contribution/index.md)
+* [Contribution](CONTRIBUTING.md)
 
 * [TC technology](TC_Technology/index.md)
 
@@ -32,4 +32,4 @@
         
 * [Copyright](copyright/index.md)
 
-* [License](license/LICENSE.md)
+* [License](LICENSE.md)
