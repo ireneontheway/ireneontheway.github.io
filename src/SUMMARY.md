@@ -13,7 +13,6 @@
 * [TC Communication](TC_Communication/index.md)
 
     * [思源华为杯创译大赛创作思路](TC_Communication/思源华为杯创译大赛创作思路.md)
-    * [简明英文写作之ASD-STE100的写作规则有哪些](TC_Communication/TC_Paper_简明英文写作之ASD-STE100的写作规则有哪些.md)
 
 * [TC Paper](TC_Paper/index.md)
 
@@ -28,6 +27,9 @@
     * [Structured Writing](TC_Paper/Structured_writing/index.md)
         * [DITA Intro](TC_Paper/Structured_writing/StructuredWriting_DITA_Intro.md)
         * [DITA Learning Guide](TC_Paper/Structured_writing/StructuredWriting_DITA_Learningguide.md)
+     
+    * [简明英文写作之ASD-STE100的写作规则有哪些](TC_Paper/TC_Paper_简明英文写作之ASD-STE100的写作规则有哪些.md)
         
 * [Copyright](copyright/index.md)
+
 * [License](license/LICENSE.md)
