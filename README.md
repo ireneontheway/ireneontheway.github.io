@@ -9,7 +9,8 @@ The world of man and machine language for better technical communication.
 
 # Contribution
 
-[Contribution](src/contribution/index.md)
+Welcome to the world of technical communication. Feel free to add your TC story in this repo. And then you will be one of the contributor of this repo. More details, see [Contribution](CONTRIBUTING.md).
+
 
 # Platforms
 
