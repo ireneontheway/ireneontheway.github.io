@@ -4,11 +4,11 @@
 
 * [Contribution](contribution/index.md)
 
-* [TC technology](TC_technology/index.md)
+* [TC technology](TC_Technology/index.md)
 
-    * [XML Intro](TC_technology/TC_Tech_StructuredWriting_XML_Intro.md)
-    * [Database Basic Knowledge](TC_technology/TC_Tech_database_basic_knowledge.md)
-    * [What is API](TC_technology/TC_Tech_what_is_api.md)
+    * [XML Intro](TC_Technology/TC_Tech_StructuredWriting_XML_Intro.md)
+    * [Database Basic Knowledge](TC_Technology/TC_Tech_database_basic_knowledge.md)
+    * [What is API](TC_Technology/TC_Tech_what_is_api.md)
 
 * [TC Communication](TC_Communication/index.md)
 
