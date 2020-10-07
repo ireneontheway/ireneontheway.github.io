@@ -2,7 +2,7 @@
 
 [Introduction](index.md)
 
-* [Contribution]([CONTRIBUTING.md](https://github.com/ireneontheway/ireneontheway.github.io/blob/master/CONTRIBUTING.md))
+* [Contribution](https://github.com/ireneontheway/ireneontheway.github.io/blob/master/CONTRIBUTING.md)
 
 * [TC technology](TC_Technology/index.md)
 
@@ -32,4 +32,4 @@
         
 * [Copyright](copyright/index.md)
 
-* [License](https://github.com/ireneontheway/ireneontheway.github.io/blob/master/LICENSE.md)
+* [License](https://github.com/ireneontheway/ireneontheway.github.io/blob/master/LICENSE)
