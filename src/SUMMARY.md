@@ -2,7 +2,7 @@
 
 [Introduction](index.md)
 
-* [Contribution](https://github.com/ireneontheway/ireneontheway.github.io/blob/master/CONTRIBUTING.md)
+* [Contributing](Contributing/CONTRIBUTING.md)
 
 * [TC technology](TC_Technology/index.md)
 
@@ -30,5 +30,4 @@
      
     * [简明英文写作之ASD-STE100的写作规则有哪些](TC_Paper/TC_Paper_简明英文写作之ASD-STE100的写作规则有哪些.md)
         
-
-* [License](https://github.com/ireneontheway/ireneontheway.github.io/blob/master/LICENSE)
+* [LICENSE](LICENSE/LICENSE.md)

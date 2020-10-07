@@ -86,4 +86,4 @@ After executing the above command, you can open
 [`http://localhost:3000/`](http://localhost:3000/)
  with your browser to preview articles.
 
-![Preview](src/images/preview.png)
+![Preview](../images/preview.png)
