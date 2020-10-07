@@ -1,0 +1,353 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>DITA Intro</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        
+        <link rel="shortcut icon" href="../../favicon.png">
+        
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Introduction</a></li><li class="chapter-item expanded "><a href="../../contribution/index.html"><strong aria-hidden="true">1.</strong> Contribution</a></li><li class="chapter-item expanded "><a href="../../TC_technology/index.html"><strong aria-hidden="true">2.</strong> TC technology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../TC_technology/TC_Tech_StructuredWriting_XML_Intro.html"><strong aria-hidden="true">2.1.</strong> XML Intro</a></li><li class="chapter-item expanded "><a href="../../TC_technology/TC_Tech_database_basic_knowledge.html"><strong aria-hidden="true">2.2.</strong> Database Basic Knowledge</a></li><li class="chapter-item expanded "><a href="../../TC_technology/TC_Tech_what_is_api.html"><strong aria-hidden="true">2.3.</strong> What is API</a></li></ol></li><li class="chapter-item expanded "><a href="../../TC_Communication/index.html"><strong aria-hidden="true">3.</strong> TC Communication</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../TC_Communication/思源华为杯创译大赛创作思路.html"><strong aria-hidden="true">3.1.</strong> 思源华为杯创译大赛创作思路</a></li><li class="chapter-item expanded "><a href="../../TC_Communication/TC_Paper_简明英文写作之ASD-STE100的写作规则有哪些.html"><strong aria-hidden="true">3.2.</strong> 简明英文写作之ASD-STE100的写作规则有哪些</a></li></ol></li><li class="chapter-item expanded "><a href="../../TC_Paper/index.html"><strong aria-hidden="true">4.</strong> TC Paper</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/index.html"><strong aria-hidden="true">4.1.</strong> DQTI</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/TC_Paper_developing_quality_technical_information.html"><strong aria-hidden="true">4.1.1.</strong> Developing Quality Technical Information</a></li><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/TC_Paper_DQTI_accuracy.html"><strong aria-hidden="true">4.1.2.</strong> DQTI Accuracy</a></li><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/TC_Paper_DQTI_accuracy02.html"><strong aria-hidden="true">4.1.3.</strong> DQTI Accuracy02</a></li><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/TC_Paper_DQTI_task_orientation.html"><strong aria-hidden="true">4.1.4.</strong> DQTI Task Orientation</a></li><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/TC_Paper_DQTI_task_orientation02.html"><strong aria-hidden="true">4.1.5.</strong> DQTI Task Orientation02</a></li><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/TC_Paper_DQTI_completeness.html"><strong aria-hidden="true">4.1.6.</strong> DQTI Completeness</a></li></ol></li><li class="chapter-item expanded "><a href="../../TC_Paper/Structured_writing/index.html"><strong aria-hidden="true">4.2.</strong> Structured Writing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../TC_Paper/Structured_writing/StructuredWriting_DITA_Intro.html" class="active"><strong aria-hidden="true">4.2.1.</strong> DITA Intro</a></li><li class="chapter-item expanded "><a href="../../TC_Paper/Structured_writing/StructuredWriting_DITA_Learningguide.html"><strong aria-hidden="true">4.2.2.</strong> DITA Learning Guide</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../copyright/index.html"><strong aria-hidden="true">5.</strong> Copyright</a></li><li class="chapter-item expanded "><a href="../../license/LICENSE.html"><strong aria-hidden="true">6.</strong> License</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#dita" id="dita">DITA</a></h1>
+<p>what you see is not what you get; what you see is only one option.</p>
+<p>DITA的首字母D是达尔文的第一个字母，与进化论作者名字相同，是DITA标准设计者可以选择的最贴切的名字。DITA在实施过程中，信息架构的构建规则和内容策略需要不断演化与进化，优质可重用内容的形成需要经历自然选择和淘汰过程。</p>
+<p>DITA信息开发流程</p>
+<p><img src="../../images/1.png" alt="DITA信息开发流程" /></p>
+<p>结构化写作特点：</p>
+<ul>
+<li>
+<p>模块化</p>
+</li>
+<li>
+<p>内容与样式分离</p>
+</li>
+<li>
+<p>元数据</p>
+</li>
+<li>
+<p>多格式发布</p>
+</li>
+<li>
+<p>内容重用</p>
+</li>
+</ul>
+<p>DITA的特点：</p>
+<ul>
+<li>应用领域广</li>
+<li>融合信息开发理念</li>
+<li>信息架构可进化</li>
+<li>重用灵活</li>
+<li>兼容性强</li>
+</ul>
+<h2><a class="header" href="#ditaa-hrefhttpditaxmlorgcontent00299079-ct_7ct00298178成熟度模型a" id="ditaa-hrefhttpditaxmlorgcontent00299079-ct_7ct00298178成熟度模型a">DITA<a href="http://dita.xml.org/content/00299079-CT_7/CT00298178/">成熟度模型</a></a></h2>
+<p>###　模型概要</p>
+<ul>
+<li>
+<p><strong><a href="http://dita.xml.org/content/00299079-CT_7/CT00298178/">Level 1: Topics</a></strong>
+在最基本的层次上，DITA是一种XML文档标记语言。但即使在最简单的层次上，DITA仍会强制执行主题结构和重用体系结构，以允许DITA文档重用其他结构化项目中的内容。这种标准化还为其他人重新使用主题级别奠定了基础，因为面向文档的内容的初始迁移逐渐发展为结合了围绕主题和地图的更好的管理和创作实践。</p>
+</li>
+<li>
+<p><strong><a href="http://dita.xml.org/content/00299079-CT_7/CT00298197/">Level 2: Scalable Reuse</a></strong>
+面向主题的创作可围绕受众的主要使用单位（针对大多数模块化内容的最安全，可扩展性最高的重用策略）组织可重复使用的内容。可以通过使用DITA映射对外部的更高级结构（例如章节甚至Web页面）进行编码，针对不同的媒体和主题的不同变体（例如产品变体的文档）重复使用，重新组合和组织相同的主题。构成可交付成果的主题。</p>
+</li>
+<li>
+<p><strong><a href="http://dita.xml.org/content/00299079-CT_7/CT00298192/">Level 3: Specialization and Customization</a></strong>
+通过专业化，DITA可以为信息键入策略提供结构性支持，从而改善创作一致性并指导质量改进。专业化还可以针对特定主题或可交付成果的类型对内容进行更紧密的建模，语义搜索和定制过程可以利用这些内容</p>
+</li>
+<li>
+<p><strong><a href="http://dita.xml.org/content/00299079-CT_7/CT00298190/">Level 4: Automation and integration</a></strong>
+内容专业化之后，您就可以利用对关键过程的自动化来进行语义投资，并开始将内容捆绑在一起-甚至跨不同的专业或创作学科。例如，您可以在市场营销和培训中共享通用内容，或者在整个内容生命周期中共享通用流程和基础架构。</p>
+</li>
+<li>
+<p><strong><a href="http://dita.xml.org/content/00299079-CT_7/CT00298191/">Level 5: Semantics on demand</a></strong>
+随着DITA多样化以在组织中占据更多角色，单一应用程序解决方案不再能够提供每个作者或产品可能需要的专业支持。相反，共享DITA作为通用语义货币的跨应用程序，跨仓库的策略使组可以使用最适合其内容创作和管理需求的工具集，同时在整个内容生命周期中共享内容甚至在组之间转移创作责任。除了已知流程的自动化之外，我们现在还可以灵活地根据需要组合新的应用程序和内容源，从而提供处理灵活性和适应性强的渐进式内容策略。</p>
+</li>
+<li>
+<p><strong><a href="http://dita.xml.org/content/00299079-CT_7/CT00298182/">Level 6: Universal semantic ecosystem</a></strong>
+随着DITA在内容孤岛和应用程序之间提供可扩展的语义带宽，出现了一种新型的语义生态系统：可以随内容跨旧边界移动，包装非结构化内容并提供与半结构内容和托管数据源的经过验证的集成的语义。 DITA成为跨组织，跨标准，通用内容使用的语义交换标准</p>
+</li>
+</ul>
+<h3><a class="header" href="#a-hrefhttpsthecontentwranglercom20080131maturity_model_helps_companies_do_dita_rightdita-成熟度模型帮助企业顺利部署ditaa" id="a-hrefhttpsthecontentwranglercom20080131maturity_model_helps_companies_do_dita_rightdita-成熟度模型帮助企业顺利部署ditaa"><a href="https://thecontentwrangler.com/2008/01/31/maturity_model_helps_companies_do_dita_right/">DITA 成熟度模型帮助企业顺利部署DITA</a></a></h3>
+<p>DITA成熟度模型可以应对DITA的采用挑战。 DITA成熟度模型不是采用全有或全无的方法，而是假设公司将采用渐进的逐步方法，一次吃掉一口DITA大象。</p>
+<p>除了经过验证的模式和最佳实践之外，DITA成熟度模型还可以帮助每个公司为其DITA计划找到合适的切入点，而不管其DITA能力是否强大。因此，DITA成熟度模型非常灵活，可以适应每个组织的个人情况和目标。</p>
+<p>DITA成熟度模型还有助于衡量模型的六个级别的成功程度。特定的里程碑可帮助组织了解它们在每个级别中的位置，从而在他们努力实现DITA的最大有效性和效率时提供对进度的整体，上下文的了解。</p>
+<p>尽管引入了组织上的巨变，但DITA仍然是提高XML内容价值的巨大机会。 DITA成熟度模型可以帮助任何公司驾驭DITA水域，无论是计划深入到深端还是只是将脚趾浸入浅端。</p>
+<h2><a class="header" href="#基本术语" id="基本术语">基本术语</a></h2>
+<h3><a class="header" href="#建筑图纸---dita标准" id="建筑图纸---dita标准">建筑图纸 -&gt; DITA标准</a></h3>
+<h3><a class="header" href="#房子---map" id="房子---map">房子 -&gt; map</a></h3>
+<p>DITA map，用于组织topic的DITA文件</p>
+<h3><a class="header" href="#房间---topic" id="房间---topic">房间 -&gt; topic</a></h3>
+<p>DITA topic,DITA topic是构建内容的基本模块，不同类型的内容用不同的载体（topic类型）</p>
+<h3><a class="header" href="#窗户门---内容组件element" id="窗户门---内容组件element">窗户、门 -&gt; 内容组件element</a></h3>
+<p>DITA元素类型的XML元素，其@class属性值必须是符合DITA规范或符合专门化层级的元素名</p>
+<h3><a class="header" href="#对组件的描述---属性attribute" id="对组件的描述---属性attribute">对组件的描述 -&gt; 属性attribute</a></h3>
+<p>描述元素属性的元数据，用@表示</p>
+<h3><a class="header" href="#其他" id="其他">其他</a></h3>
+<h4><a class="header" href="#dita文件" id="dita文件">DITA文件</a></h4>
+<p>符合DITA规范的XML文件，根元素必须为 <map>, <topic>, 或 <dita> 之一，后缀名是.xml或.dita</p>
+<h4><a class="header" href="#元数据metadata" id="元数据metadata">元数据（metadata）</a></h4>
+<p>提供有关信息的信息，可以是属性或元素</p>
+<h4><a class="header" href="#dita专门化specialization" id="dita专门化specialization">DITA专门化（specialization）</a></h4>
+<p>对现有的DITA架构（topic，元素和属性）进行扩展，使之更加适合内容需求，DITA专门化是DITA定制的一种形式.</p>
+<h2><a class="header" href="#整体框架" id="整体框架">整体框架</a></h2>
+<h3><a class="header" href="#base-architecture" id="base-architecture">Base architecture</a></h3>
+<p>• 作者不需要更详细的信息分类</p>
+<p>• 开发者创建轻量级的DITA应用</p>
+<p>• 开发者基于topic作专门化</p>
+<p>如：菜谱、数据表</p>
+<h3><a class="header" href="#technical-content" id="technical-content">Technical Content</a></h3>
+<p>• 技术传播者创作面向任务的信息，需要多种信息类型</p>
+<p>• 商业分析师记录过程和流程</p>
+<p>• 创作书本</p>
+<p>如：用户手册、维修手册、在线帮助、厂商的知识库等</p>
+<h3><a class="header" href="#learning-and-training" id="learning-and-training">Learning and training</a></h3>
+<p>• 制作公司内部或商业培训材料</p>
+<p>• 教师制作课件</p>
+<p>• 在线培训</p>
+<h2><a class="header" href="#lwdita" id="lwdita">LwDITA</a></h2>
+<p><img src="../../images/3.png" alt="LwDITA" /></p>
+<p>轻量级DITA不单纯基于XML的结构化写作。</p>
+<p>详情<a href="https://www.slideshare.net/mpriestley/lightweight-dita-a-preoverview?from_action=save">Lightweight DITA: A pre/overview, Michael Priestley</a>。</p>
+<h2><a class="header" href="#参考信息待更新" id="参考信息待更新">参考信息(待更新)</a></h2>
+<ul>
+<li>
+<p><a href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_List_of_Domains.html">The DITA Style Guide Best Practices for Authors</a></p>
+</li>
+<li>
+<p><a href="https://learningdita.com/">learningDITA</a></p>
+</li>
+<li>
+<p><a href="http://www.w3school.com.cn">w3school在线学习</a></p>
+</li>
+<li>
+<p><a href="https://www.ibm.com/developerworks/library/x-dita2/">IBM Specializing Topics in DITA</a></p>
+</li>
+<li>
+<p><a href="http://dita.xml.org/">DITA.XML.ORG</a></p>
+</li>
+<li>
+<p>http://docs.oasis-open.org </p>
+</li>
+</ul>
+<blockquote>
+<p>本文主要内容来源于本文内容部分引用自 <a href="www.learningdita.cn">TC互联</a>，仅作学习分享。</p>
+<p>如需转载请注明作者与来源。</p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../TC_Paper/Structured_writing/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../TC_Paper/Structured_writing/StructuredWriting_DITA_Learningguide.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../TC_Paper/Structured_writing/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../TC_Paper/Structured_writing/StructuredWriting_DITA_Learningguide.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
