@@ -62,7 +62,7 @@ Swagger: Swagger是一套围绕OpenAPI规范构建的开源工具，可以帮助
 - 使用该规范将API相关工具**连接到您的API**。例如，将规范导入到SoapUI来为您的API创建自动化测试。
   查看与Swagger集成的开源和商业工具。
 
-![API](/src/images/API.png)
+![API](../images/API.png)
 
 > 本文主要内容仅作学习分享。
 >

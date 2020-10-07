@@ -4,13 +4,16 @@
 
 Fork my repo on [GitHub](https://github.com/ireneontheway/ireneontheway.github.io) and clone it.
 
-## Write articles
+```
+git clone https://github.com/ireneontheway/ireneontheway.github.io 
+```
 
-The document is written under `./src`, you can use mdbook to preview.
-Mdbook is [here](https://mdbook.budshome.com).
+## Directory structure
 
-
-The commands to start document preview under each system are as follows:
+The directory structure is maintained in the `SUMMARY.md` file.
+After starting `mdbook`,it will automatically generate directories 
+and files according to the `SUMMARY.md`.The commands to start document 
+preview under each system are as follows:
 
 - Window
 
@@ -33,10 +36,16 @@ bin/linux/mdbook serve
 -  Mac and Linux systems need to give mdbook executable permission：
  
 ```
-chmod 755 bin/mac/mdbook or sudo chmod 755 bin/mac/mdbook
+sudo chmod 755 bin/mac/mdbook
 
-chmod 755 bin/linux/mdbook or sudo chmod 755 bin/linux/mdbook
+sudo chmod 755 bin/linux/mdbook
 ```
+
+## Write articles
+
+The document is written under `./src`, you can use mdbook to preview.
+Mdbook manual is [here](https://mdbook.budshome.com).
+
 
 ## Preview
 

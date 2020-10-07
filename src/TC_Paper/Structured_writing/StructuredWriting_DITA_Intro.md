@@ -6,7 +6,7 @@ DITA的首字母D是达尔文的第一个字母，与进化论作者名字相同
 
 DITA信息开发流程
 
-![DITA信息开发流程](../images/1.png)
+![DITA信息开发流程](../../images/1.png)
 
 结构化写作特点：
 
@@ -126,7 +126,7 @@ DITA元素类型的XML元素，其@class属性值必须是符合DITA规范或符
 
 ## LwDITA
 
-![LwDITA](/src/images/3.png)
+![LwDITA](../../images/3.png)
 
 轻量级DITA不单纯基于XML的结构化写作。
 

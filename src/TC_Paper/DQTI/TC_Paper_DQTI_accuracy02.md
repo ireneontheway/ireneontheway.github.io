@@ -46,22 +46,22 @@
 
   - Grammarly
 
-    ![DQTI_Accuracy_Grammarly](/src/images/DQTI_Accuracy_Grammarly.png)
+    ![DQTI_Accuracy_Grammarly](../../images/DQTI_Accuracy_Grammarly.png)
 
   - LanguageTool
   
-    ![DQTI_Accuracy_languagetool](/src/images/DQTI_Accuracy_languagetool.png)
+    ![DQTI_Accuracy_languagetool](../../images/DQTI_Accuracy_languagetool.png)
 
 - 代码检测工具：
 
   - Code Spell Checker
   
-    ![DQTI_Accuracy_CodeSpellChecker](/src/images/DQTI_Accuracy_CodeSpellChecker.png)
+    ![DQTI_Accuracy_CodeSpellChecker](../../images/DQTI_Accuracy_CodeSpellChecker.png)
   
 - 专业翻译工具的质检功能
   - Yicat
   
-    ![DQTI_Accuracy_Yicat](/src/images/DQTI_Accuracy_Yicat.png)可以巧用专业计算机辅助翻译工具术语库的功能，建立属于自己的术语库，但要注意添加术语的准确性。
+    ![DQTI_Accuracy_Yicat](../../images/DQTI_Accuracy_Yicat.png)可以巧用专业计算机辅助翻译工具术语库的功能，建立属于自己的术语库，但要注意添加术语的准确性。
 
 ## 检查相关参考信息的准确性
 
@@ -73,13 +73,13 @@
 
 使用链接检测工具有利于找出死链及时修改，如github的插件CircleCI:
 
-![DQTI_Accuracy_Linkcheck](/src/images/DQTI_Accuracy_Linkcheck.png)
+![DQTI_Accuracy_Linkcheck](../../images/DQTI_Accuracy_Linkcheck.png)
 
 ## DQTI 之 Accuracy 总结
 
 保证文本准确性就是建立用户信任的基石。Accuracy 章节讲述了保证信息准确的几个要点：
 
-![DQTI_Accuracy_sum](/src/images/DQTI_Accuracy_sum.png)
+![DQTI_Accuracy_sum](../../images/DQTI_Accuracy_sum.png)
 
 > 本文主要内容来源于《Developing Quality Technical Information》，仅作学习分享。
 >

@@ -1,4 +1,4 @@
-# develop quality technical information
+# Develop quality technical information
 
 DQTI 可以说是技术写作里的圣经宝典之一了，想要成为一名合格的 technical writer 一定要拜读这本大作。今天小编带大家一起阅读本书的前言部分，了解一下究竟什么是有质量的技术信息，这本书该怎么读。
 
@@ -14,15 +14,15 @@ DQTI 可以说是技术写作里的圣经宝典之一了，想要成为一名合
 
 除了技术产品本身，还要关注产品界面设计、字段消息、标签等等，这里将之统称为嵌入式协助文档（embedded assistance）。和独立帮助文档不同的是它们会和产品使用界面一同展现给用户，让用户自然而然地接受信息引导。以下就是嵌入式协助信息的几个种类：
 
-![1](/src/images/DQTI1.png)
+![1](../../images/DQTI1.png)
 
 这是基于ASCII界面的非图形软件文本的嵌入式协助信息：
 
-![2](/src/images/DQTI2.png)
+![2](../../images/DQTI2.png)
 
 这是硬件文本的嵌入式协助信息：
 
-![3](/src/images/DQTI3.png)
+![3](../../images/DQTI3.png)
 
 ## 渐进式信息披露 (**Progressive disclosure of information**)
 
@@ -46,7 +46,7 @@ DQTI 这本书阐述了高质量技术信息有哪些特点。开发高质量技
 
 高质量技术信息要能展现用户所想，给予用户所需。以下是作者整理的几大高质量技术信息的特点，全书也是以此为结构一一展开的：
 
-![4](/src/images/DQTI4.png)
+![4](../../images/DQTI4.png)
 
 ## 小编语
 
