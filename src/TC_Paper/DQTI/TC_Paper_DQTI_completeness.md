@@ -36,7 +36,7 @@
 
 但我们常常遇到的问题是，用户不尽相同。既不想让老用户看到老生常谈的介绍信息，又不想让新用户难以上手。
 
-![DQTI_Accuracy_Completeness_users](https://github.com/ireneontheway/Technical_Communication/blob/master/Picture/DQTI_Accuracy_Completeness_users.png)
+![DQTI_Accuracy_Completeness_users](/src/images/DQTI_Accuracy_Completeness_users.png)
 
 因此需要区别对待，如果用户对文档熟悉程度不同，就需要想办法满足不同的信息需求了。以下是一些建议：
 
@@ -75,3 +75,7 @@
   > 极简的方法是指读者花最少的精力就能获取需要的信息。
 
   - 许多引入性 topic 的信息超出了用户所需。问问自己信息有第二阶梯读者吗。如果有，他们和主要读者的差别在哪里，对于他们现有信息是多了还是少了。
+
+> 本文主要内容来源于《Developing Quality Technical Information》，仅作学习分享。
+>
+> 如需转载请注明作者与来源。
