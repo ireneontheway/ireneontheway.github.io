@@ -1,21 +1,18 @@
-# Developing Quality Technical Information
+# Developing Quality Technical Information 
 
 在前一期文章中已经介绍了本书的主要框架：
 
-> Easy to use
+### Easy to use
 
 - task orientation
 - accuracy
 - completeness
 
->Easy to understand
-
+### Easy to understand
 - clarify
 - concreteness
 - style
-  
->Easy to find
-
+### Easy to find
 - organization
 - retrievability
 - visual effectiveness
@@ -32,32 +29,32 @@ task orientation 指的是写作时注重指导用户如何完成任务。我们
 >
 > 2. Present information from the user’s point of view
 >
-> 3. Indicate a practical reason for information
+> 3. Indicate a practical reason for information 
 >
 > - Relate details to a task where appropriate
 >
 > - Provide only a necessary amount of conceptual information in task topics
 >
-> 4.Focus on real tasks, not product functions
+> 4. Focus on real tasks, not product functions 
 >
-> 5.Use headings that reveal the tasks
+> 5. Use headings that reveal the tasks 
 >
-> 6.Divide tasks into discrete subtasks
+> 6. Divide tasks into discrete subtasks 
 >
-> 7.Provide clear, step-by-step instructions
+> 7. Provide clear, step-by-step instructions 
 >
 > - Make each step a clear action for users to take.
 >
-> - Group steps for usability
+> - Group steps for usability 
 >
-> - Clearly identify optional steps
+> - Clearly identify optional steps 
 >
 > - Identify criteria at the beginning of conditional steps
 >
 
 接下来我就一一介绍七条规范。
 
-### 1.Write for the intended audience 为目标读者写作
+### 1.Write for the intended audience 为目标读者写作 
 
 写作前要明确目标读者，如果是为管理者写作，写作只应该囊括高层次任务，例如评价和计划。如果是为终端用户，就要避免写系统性管理任务。要确定写的是用户关心的问题，写作的信息详细程度取决于用户的类型。
 
@@ -100,6 +97,37 @@ TW具有信息优势，写作时可以预见读者在哪一步骤需要帮助，
 
 今天就先介绍这三点，下一期文章会继续阐释后面的四条写作规范。
 
-> 本文主要内容来源于《Developing Quality Technical Information》，仅作学习分享。
->
-> 如需转载请注明作者与来源。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

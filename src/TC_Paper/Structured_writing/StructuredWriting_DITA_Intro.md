@@ -27,11 +27,8 @@ DITA的特点：
 - 信息架构可进化
 - 重用灵活
 - 兼容性强
-
 ## DITA[成熟度模型](http://dita.xml.org/content/00299079-CT_7/CT00298178/)
-
 ###　模型概要
-
 - **[Level 1: Topics](http://dita.xml.org/content/00299079-CT_7/CT00298178/)**
 在最基本的层次上，DITA是一种XML文档标记语言。但即使在最简单的层次上，DITA仍会强制执行主题结构和重用体系结构，以允许DITA文档重用其他结构化项目中的内容。这种标准化还为其他人重新使用主题级别奠定了基础，因为面向文档的内容的初始迁移逐渐发展为结合了围绕主题和地图的更好的管理和创作实践。
 
@@ -49,7 +46,6 @@ DITA的特点：
   
 - **[Level 6: Universal semantic ecosystem](http://dita.xml.org/content/00299079-CT_7/CT00298182/)**
 随着DITA在内容孤岛和应用程序之间提供可扩展的语义带宽，出现了一种新型的语义生态系统：可以随内容跨旧边界移动，包装非结构化内容并提供与半结构内容和托管数据源的经过验证的集成的语义。 DITA成为跨组织，跨标准，通用内容使用的语义交换标准
-
 ### [DITA 成熟度模型帮助企业顺利部署DITA](https://thecontentwrangler.com/2008/01/31/maturity_model_helps_companies_do_dita_right/)
 
 DITA成熟度模型可以应对DITA的采用挑战。 DITA成熟度模型不是采用全有或全无的方法，而是假设公司将采用渐进的逐步方法，一次吃掉一口DITA大象。
@@ -60,37 +56,31 @@ DITA成熟度模型还有助于衡量模型的六个级别的成功程度。特�
 
 尽管引入了组织上的巨变，但DITA仍然是提高XML内容价值的巨大机会。 DITA成熟度模型可以帮助任何公司驾驭DITA水域，无论是计划深入到深端还是只是将脚趾浸入浅端。
 
+
 ## 基本术语
 
 ### 建筑图纸 -> DITA标准
 
-### 房子 -> map
-
+### 房子 -> map ：
 DITA map，用于组织topic的DITA文件
 
-### 房间 -> topic
-
-DITA topic,DITA topic是构建内容的基本模块，不同类型的内容用不同的载体（topic类型）
+### 房间 -> topic :
+DITA topic,DITA topic是构建内容的基本模块，不同类型的内容用不同的载体（topic类型） 
 
 ### 窗户、门 -> 内容组件element
-
-DITA元素类型的XML元素，其@class属性值必须是符合DITA规范或符合专门化层级的元素名
-
-### 对组件的描述 -> 属性attribute
-
+:DITA元素类型的XML元素，其@class属性值必须是符合DITA规范或符合专门化层级的元素名
+### 对组件的描述 -> 属性attribute:
 描述元素属性的元数据，用@表示
-
 ### 其他
+#### DITA文件：
 
-#### DITA文件
+符合DITA规范的XML文件，根元素必须为<map>, <topic>, 或<dita>之一，后缀名是.xml或.dita
 
-符合DITA规范的XML文件，根元素必须为 <map>, <topic>, 或 <dita> 之一，后缀名是.xml或.dita
-
-#### 元数据（metadata）
+#### 元数据（metadata）：
 
 提供有关信息的信息，可以是属性或元素
 
-#### DITA专门化（specialization）
+#### DITA专门化（specialization）：
 
 对现有的DITA架构（topic，元素和属性）进行扩展，使之更加适合内容需求，DITA专门化是DITA定制的一种形式.
 
@@ -124,15 +114,18 @@ DITA元素类型的XML元素，其@class属性值必须是符合DITA规范或符
 
 • 在线培训
 
+
 ## LwDITA
 
-![LwDITA](/src/images/3.png)
+![LwDITA](../images/3.png)
 
 轻量级DITA不单纯基于XML的结构化写作。
 
-详情[Lightweight DITA: A pre/overview, Michael Priestley](https://www.slideshare.net/mpriestley/lightweight-dita-a-preoverview?from_action=save)。
+详情[Lightweight DITA: A pre/overview, Michael Priestley](https://www.slideshare.net/mpriestley/lightweight-dita-a-preoverview?from_action=save) 
 
-## 参考信息(待更新)
+
+
+# 参考信息(待更新)
 
 - [The DITA Style Guide Best Practices for Authors](https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/#Artefact/Syntax_and_Markup/c_List_of_Domains.html)
 - [learningDITA](https://learningdita.com/)
@@ -143,6 +136,5 @@ DITA元素类型的XML元素，其@class属性值必须是符合DITA规范或符
 
 - http://docs.oasis-open.org 
 
-> 本文主要内容来源于本文内容部分引用自 [TC互联](www.learningdita.cn)，仅作学习分享。
->
-> 如需转载请注明作者与来源。
+本文内容部分引用自“TC互联learningdita.cn”
+
