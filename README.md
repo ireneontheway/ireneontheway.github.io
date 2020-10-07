@@ -14,33 +14,27 @@ The world of man and machine language for better technical communication.
 # Platforms
 
 - Wechat Platfrom: 俗人茶室
-- Github: [Technical_Communication](https://github.com/ireneontheway/ireneontheway.github.io)
+- Github: Technical_Communication
 - twitter: @Irenehalo
 
 # Column
 
-## TC_Technology
+## TC_News 
 
-All about Information technology.
+- Technology：information technology, hot products, latest news
+- Communication：UX, product manager, media
 
-- Database basic knowledge
-- What is API
-- XML introduction
-- ...
+## TCers 
 
-## TC_Communication
-
-The latest new of technical communication.
-
-- Siyuan HUAWEI transcreation
-- TCWorld 2020 
-- ... 
+- TCer development 
+- TC development 
 
 ## TC_Paper 
 
-Classical learning resources of technical communication.
-
-- DQTI (Developing Quality Technical Information)
-- DITA Structured Writing 
-- 
-ASD-STE100 (Simplified Technical English)
+Paper, Lecture, Public resource about:
+- technical writing
+- language
+- machine translation
+- computer basics
+- computational linguistics
+...

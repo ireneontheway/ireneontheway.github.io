@@ -1,12 +1,10 @@
-# Accuracy 02: be sure you are right, then go ahead
-
 ## 同一项目信息保持一致
 
 准确性问题大多是因为同一项目中某部分更新了而别的部分没有更新。一个项目里多个不同版本的信息让用户搞不明白哪个信息是正确的。面对同一类信息需要重复使用时，可以使用“信息重用”保证信息的一致性。
 
 当重用比较短的信息时，你当然可以使用简单 copy 操作。不过，如果遇到长文字重用，建议你使用 “Single source”. Single source 指的是同一来源，且改变不大的文本，但是交付形式不同。本书中的重用指的就是运用同一来源的信息。你可以设计一个 Topic 然后在不同形式的语境中使用，例如基于 HTML 或者 XML 的信息中心、 基于 Web 的文件、在线帮助或者出版书籍中。下图就详细解释了不同语境的信息重用：
 
-![DQTI_Accuracy_Reuse](/src/images/DQTI_Accuracy_Reuse.png)
+![DQTI_Accuracy_Reuse](../images/DQTI_Accuracy_Reuse.png)
 
 只需在 source text 里更新, 不需要在众多版本中逐个更新。使用 “single source” 的另一好处是，假如你的写作工具支持条件文本（conditional text），你可以加入或排除一定的信息。使用条件文本指定特定情况下使用的特点 source 文本，这样提高了多文本信息重用的弹性。
 
@@ -15,7 +13,7 @@
 - 尽可能重用信息
 - 避免信息不一致
 
-### 尽可能重用信息
+### 尽可能重用信息：
 
 | 重用场景                                     | 重用方式                                              |
 | -------------------------------------------- | ----------------------------------------------------- |
@@ -31,7 +29,9 @@
 
 并非所有信息都能重用。尽可能减少不必要的重复才能降低信息不一致的发生。比如说：
 
-- 某一流程需要用户多次使用同一命令，在写作时考虑在步骤一时仅完整地写一次命令（如：(TRACE SYSTEM INFODBASE NEW DEBUG LOG=YES），接下来重复指令时，可以用 “the TRACE command shown in step 1.” 代替。
+- 某一流程需要用户多次使用同一命令，在写作时考虑在步骤一时仅完整地写一次命令（如：(TRACE SYSTEM 
+
+  INFODBASE NEW DEBUG LOG=YES），接下来重复指令时，可以用 “the TRACE command shown in step 1.” 代替。
 
 - 在网页中写作时，如果需要重复外部网页的信息，可以选择以下方式：
 
@@ -46,22 +46,27 @@
 
   - Grammarly
 
-    ![DQTI_Accuracy_Grammarly](/src/images/DQTI_Accuracy_Grammarly.png)
+    ![DQTI_Accuracy_Grammarly](../images/DQTI_Accuracy_Grammarly.png)
 
   - LanguageTool
   
-    ![DQTI_Accuracy_languagetool](/src/images/DQTI_Accuracy_languagetool.png)
+    ![DQTI_Accuracy_languagetool](../images/DQTI_Accuracy_languagetool.png)
+<<<<<<< HEAD:src/TC_Paper/TC_Paper_DQTI_accuracy02.md
+=======
+
+>>>>>>> c38889c... feat: add mdbook:TC_Paper/TC_Paper_DQTI_accuracy02.md
 
 - 代码检测工具：
 
   - Code Spell Checker
   
-    ![DQTI_Accuracy_CodeSpellChecker](/src/images/DQTI_Accuracy_CodeSpellChecker.png)
+    ![DQTI_Accuracy_CodeSpellChecker](../images/DQTI_Accuracy_CodeSpellChecker.png)
   
 - 专业翻译工具的质检功能
   - Yicat
   
-    ![DQTI_Accuracy_Yicat](/src/images/DQTI_Accuracy_Yicat.png)可以巧用专业计算机辅助翻译工具术语库的功能，建立属于自己的术语库，但要注意添加术语的准确性。
+    ![DQTI_Accuracy_Yicat](../images/DQTI_Accuracy_Yicat.png)可以巧用专业计算机辅助翻译工具术语库的功能，建立属于自己的术语库，但要注意添加术语的准确性。
+  
 
 ## 检查相关参考信息的准确性
 
@@ -73,14 +78,19 @@
 
 使用链接检测工具有利于找出死链及时修改，如github的插件CircleCI:
 
-![DQTI_Accuracy_Linkcheck](/src/images/DQTI_Accuracy_Linkcheck.png)
+![DQTI_Accuracy_Linkcheck](../images/DQTI_Accuracy_Linkcheck.png)
 
-## DQTI 之 Accuracy 总结
+ # DQTI 之 Accuracy 总结
 
 保证文本准确性就是建立用户信任的基石。Accuracy 章节讲述了保证信息准确的几个要点：
 
-![DQTI_Accuracy_sum](/src/images/DQTI_Accuracy_sum.png)
+![DQTI_Accuracy_sum](../images/DQTI_Accuracy_sum.png)
 
-> 本文主要内容来源于《Developing Quality Technical Information》，仅作学习分享。
->
-> 如需转载请注明作者与来源。
+
+
+
+
+
+
+
+

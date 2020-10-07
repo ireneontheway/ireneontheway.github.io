@@ -4,7 +4,7 @@
 
 ## 数据库基础知识（学习笔记）
 
-### [What is Database & SQL?](https://www.youtube.com/watch?v=FR4QIeZaPeM#action=share)
+### [What is Database & SQL? ](https://www.youtube.com/watch?v=FR4QIeZaPeM#action=share)
 
   - DBMS (database management system): a collection of programs which enables its users to access database, manipulate data, help in representation of data.
     - hierarchical (trees with nodes of records and branches): Windows registry
@@ -14,14 +14,14 @@
 
   - SQL:  structured query language used to query a database
 
-### [What is a distributed database?](https://www.youtube.com/watch?v=ZGYW9TGrn_M)
+### [What is a distributed database? ](https://www.youtube.com/watch?v=ZGYW9TGrn_M)
 
   - centralized database:  data resides in one single location
   - distributed database: data resides in several locations
     - replication
     - fragmentation
 
-### [RDBMS](https://www.youtube.com/watch?v=t48TGntrX4s)
+### [RDBMS ](https://www.youtube.com/watch?v=t48TGntrX4s)
 
   store modify extract
 
@@ -37,10 +37,10 @@
     - carry out different complicated commands
   - disadvantages
     - complicated to implement
-    - hard process
+    - hard process 
     - slow over response time
 
-### [What is NoSQL?](https://www.youtube.com/watch?v=qUV2j3XBRHc&feature=youtu.be)
+### [What is NoSQL? ](https://www.youtube.com/watch?v=qUV2j3XBRHc&feature=youtu.be) 
 
 NoSQL = not only SQL
 
@@ -52,7 +52,7 @@ NoSQL = not only SQL
 
   - no SQL no ACID
 
-### [CAP](https://www.youtube.com/watch?v=k1dtA14EYrk)
+### [CAP ](https://www.youtube.com/watch?v=k1dtA14EYrk) 
 
   - consistency
 
@@ -66,7 +66,7 @@ NoSQL = not only SQL
 
     CP: MongoDB\ Hbase \ Memcache \ Redis
 
-### [Raft](https://www.youtube.com/watch?v=P9Ydif5_qvE)
+### [Raft ](https://www.youtube.com/watch?v=P9Ydif5_qvE) 
 
   - Solve Byzantine failures
 
@@ -119,9 +119,10 @@ NoSQL = not only SQL
 
 leader 会每个心跳间隔至少一次向所有对等方发送一个 AppendEntries RPC，以防止他们开始新的选举。 如果领导者没有新条目要发送到特定对等方，则 AppendEntries RPC 不包含任何条目，并被视为心跳。
 
-#### 几分钟演示 Raft 原理，点击查看： [Raft 原理演示](http://thesecretlivesofdata.com/raft/)
+#### 几分钟演示 Raft 原理，点击查看： [Raft 原理演示](http://thesecretlivesofdata.com/raft/) 
 
-### [ACID, Isolation Level, MVCC](http://www.cnblogs.com/lidabnu/p/4495785.html)
+
+### [ACID, Isolation Level, MVCC ](http://www.cnblogs.com/lidabnu/p/4495785.html) 
 
   （1）脏读：指事务读到脏数据，所谓脏数据，指的是不正确的数据，例如事务执行过程中修改了某记录，然后回滚，如果其他事务读到了该记录的中间修改值，则为脏读。
 
@@ -152,7 +153,7 @@ leader 会每个心跳间隔至少一次向所有对等方发送一个 AppendEnt
    从上可知，使用MVCC后，大部分读都不再需要加读锁，因此读不再阻塞写，写也不再阻塞读。读操作只再受限于系统IO能力。
 
 > MVCC provides concurrent access to the database without locking the data. This feature improves the performance of database applications in a multiuser environment. Applications will no longer hang because a read cannot acquire a lock.
->
+
 > MVCC provides each user connected to the database with a "snapshot" of the data to work with. The data is consistent with a point in time. Other users of the database see no changes until the transaction is committed. The snapshot can be taken at the start of a transaction, or at the start of each statement, as determined by the isolation level setting.
 
 ## 其他术语解释
@@ -173,12 +174,8 @@ leader 会每个心跳间隔至少一次向所有对等方发送一个 AppendEnt
 
 - InnoDB
 
-  是MySQL的数据库引擎之一，现为MySQL的默认存储引擎,支持了 [ACID](https://baike.baidu.com/item/ACID/10738) 兼容的[事务](https://baike.baidu.com/item/事务/5945882)（Transaction）功能。
+  是MySQL的数据库引擎之一，现为MySQL的默认存储引擎,支持了[ACID](https://baike.baidu.com/item/ACID/10738)兼容的[事务](https://baike.baidu.com/item/事务/5945882)（Transaction）功能。
 
 - subquery sql
 
   一個查詢內的查詢，我們可以用來連接資料表，或在不能使用單一語句來完成的查詢時我們就需要用到子查詢。
-
-> 本文主要内容仅作学习分享。
->
-> 如需转载请注明作者与来源。

@@ -1,6 +1,6 @@
-# 简明英文写作之 ASD-STE100 的写作规则有哪些
+# 简明英文写作之 ASD-STE100 的写作规则有哪些？
 
-> Rules for Writers:------ George Orwell
+> Rules for Writers:------ George Orwell 
 >
 > 1. Never use a metaphor, simile, or other figure of speech which you are used to seeing in print.
 > 2. Never use a long word where a short one will do.
@@ -10,6 +10,8 @@
 > 6. Break any of these rules sooner than say anything outright barbarous.
 
 谈到英文写作，不得不谈一谈乔治·奥威尔著名的写作准则，六句话点明了简明英语写作的核心。而今天要介绍的 ASD-STE100 简化技术英语（STE）首页就附上了这六条经典准则。
+
+![](https://media.licdn.cn/dms/image/C4E12AQE12XtGbwJdAg/article-inline_image-shrink_1500_2232/0?e=1597276800&v=beta&t=8VE-fXj9ZXqN57O4usia0KZzbT4bBpXAtytLHVaMVPQ)
 
 STE 是一项国际性的航空航天标准，有助于技术文档 的明确性，让读者容易理解。STE源自航空航天和国防，为许多航空和国防项目所必备。如今，STE越来越多地应用于汽车、机械、电子电信和医疗设备等技术领域，用于降低翻译成本，提高翻译质量。
 
@@ -122,6 +124,7 @@ STE包括：
   
   - 标题、标语
 - 用 "-" 连接的词语视为一个单词
+  
 
 ## 9.Writing practices
 
@@ -132,7 +135,3 @@ STE包括：
 - That 的使用： that 帮助读者理解整个句子的结构、避免模糊、帮助翻译，不可随意遗漏。
 - With 的使用：本规范对于 "with" 有三种意思。这是一个功能性单词表明联系、帮助或分析、办法或工具，恰当使用可以清晰表达。
 - 代词的使用：正确使用代词可以简化文章，但若出现语义不清请用具体单词替代。
-
-> 本文主要内容来源于 ASD-STE100，仅作学习分享。
->
-> 如需转载请注明作者与来源。
