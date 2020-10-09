@@ -27,7 +27,7 @@
     * [Structured Writing](TC_Paper/Structured_writing/index.md)
         * [DITA Intro](TC_Paper/Structured_writing/StructuredWriting_DITA_Intro.md)
         * [DITA Learning Guide](TC_Paper/Structured_writing/StructuredWriting_DITA_Learningguide.md)
-     
+        * [DITA Map L1](TC_Paper/Structured_writing/StructuredWriting_DITA_Map_L1createmap.md) 
     * [简明英文写作之ASD-STE100的写作规则有哪些](TC_Paper/TC_Paper_简明英文写作之ASD-STE100的写作规则有哪些.md)
         
 * [LICENSE](LICENSE/LICENSE.md)
