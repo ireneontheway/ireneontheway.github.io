@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>DITA Map L1</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        
+        <link rel="shortcut icon" href="../../favicon.png">
+        
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">Introduction</a></li><li class="chapter-item expanded "><a href="../../Contributing/CONTRIBUTING.html"><strong aria-hidden="true">1.</strong> Contributing</a></li><li class="chapter-item expanded "><a href="../../TC_Technology/index.html"><strong aria-hidden="true">2.</strong> TC technology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../TC_Technology/TC_Tech_StructuredWriting_XML_Intro.html"><strong aria-hidden="true">2.1.</strong> XML Intro</a></li><li class="chapter-item expanded "><a href="../../TC_Technology/TC_Tech_database_basic_knowledge.html"><strong aria-hidden="true">2.2.</strong> Database Basic Knowledge</a></li><li class="chapter-item expanded "><a href="../../TC_Technology/TC_Tech_what_is_api.html"><strong aria-hidden="true">2.3.</strong> What is API</a></li></ol></li><li class="chapter-item expanded "><a href="../../TC_Communication/index.html"><strong aria-hidden="true">3.</strong> TC Communication</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../TC_Communication/思源华为杯创译大赛创作思路.html"><strong aria-hidden="true">3.1.</strong> 思源华为杯创译大赛创作思路</a></li></ol></li><li class="chapter-item expanded "><a href="../../TC_Paper/index.html"><strong aria-hidden="true">4.</strong> TC Paper</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/index.html"><strong aria-hidden="true">4.1.</strong> DQTI</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/TC_Paper_developing_quality_technical_information.html"><strong aria-hidden="true">4.1.1.</strong> Developing Quality Technical Information</a></li><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/TC_Paper_DQTI_accuracy.html"><strong aria-hidden="true">4.1.2.</strong> DQTI Accuracy</a></li><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/TC_Paper_DQTI_accuracy02.html"><strong aria-hidden="true">4.1.3.</strong> DQTI Accuracy02</a></li><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/TC_Paper_DQTI_task_orientation.html"><strong aria-hidden="true">4.1.4.</strong> DQTI Task Orientation</a></li><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/TC_Paper_DQTI_task_orientation02.html"><strong aria-hidden="true">4.1.5.</strong> DQTI Task Orientation02</a></li><li class="chapter-item expanded "><a href="../../TC_Paper/DQTI/TC_Paper_DQTI_completeness.html"><strong aria-hidden="true">4.1.6.</strong> DQTI Completeness</a></li></ol></li><li class="chapter-item expanded "><a href="../../TC_Paper/Structured_writing/index.html"><strong aria-hidden="true">4.2.</strong> Structured Writing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../TC_Paper/Structured_writing/StructuredWriting_DITA_Intro.html"><strong aria-hidden="true">4.2.1.</strong> DITA Intro</a></li><li class="chapter-item expanded "><a href="../../TC_Paper/Structured_writing/StructuredWriting_DITA_Learningguide.html"><strong aria-hidden="true">4.2.2.</strong> DITA Learning Guide</a></li><li class="chapter-item expanded "><a href="../../TC_Paper/Structured_writing/StructuredWriting_DITA_Map_L1createmap.html" class="active"><strong aria-hidden="true">4.2.3.</strong> DITA Map L1</a></li></ol></li><li class="chapter-item expanded "><a href="../../TC_Paper/TC_Paper_简明英文写作之ASD-STE100的写作规则有哪些.html"><strong aria-hidden="true">4.3.</strong> 简明英文写作之ASD-STE100的写作规则有哪些</a></li></ol></li><li class="chapter-item expanded "><a href="../../LICENSE/LICENSE.html"><strong aria-hidden="true">5.</strong> LICENSE</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#dita-map--a-hrefhttpwwwlearningditacncourses5-e4bdbfe794a8dita-mape5928cbookmaplessonslc_creating_a_maplesson-1-创建一个mapa" id="dita-map--a-hrefhttpwwwlearningditacncourses5-e4bdbfe794a8dita-mape5928cbookmaplessonslc_creating_a_maplesson-1-创建一个mapa">DITA Map | <a href="http://www.learningdita.cn/courses/5-%E4%BD%BF%E7%94%A8dita-map%E5%92%8Cbookmap/lessons/lc_creating_a_map">Lesson 1: 创建一个map</a></a></h1>
+<h2><a class="header" href="#ditamap-文件的定义和目的" id="ditamap-文件的定义和目的">ditamap 文件的定义和目的</a></h2>
+<ul>
+<li>联结 topics</li>
+<li>导航的基础、联结内容</li>
+<li>决定交付物展现的 topic</li>
+<li>为满足用户需求，为工作流中一系列 topic 设定导航</li>
+<li>在 topic 之间创建联系</li>
+</ul>
+<p>Map 可以用来编辑、组织和定义 DITA topic 之间的关系。一个  map可以包含如下内容：</p>
+<ul>
+<li>关于某个产品信息的所有 concept 和 reference 类型 topic</li>
+<li>为该产品提供使用说明的所有 task 类型 topic</li>
+<li>一个相关术语的词汇表</li>
+</ul>
+<h2><a class="header" href="#创建一个新的-dita-map" id="创建一个新的-dita-map">创建一个新的 DITA Map</a></h2>
+<p>Map 可以包含元数据，例如产品信息、版权和出版日期。Map 中的元数据可用来帮助你的公司更有效地管理和分发你的内容，或帮助你的顾客更轻松地找到所需内容。</p>
+<p>一个map至少要包含一个根<map>（root <map>）元素。<map>元素可以包含以下元素：</p>
+<ul>
+<li><title>元素，允许你为map命名（例如“某产品的用户指南”）。<title>元素中的文本也可以用作输出文档的标题。
+</li>
+<li>任意数量的<topicref>元素，允许你在 map 中引用 topic。一个<topicref>元素可以包含其它<topicref>元素。</li>
+<li>任意数量的<mapref>元素，允许你在主 map 中引用其它 map。</li>
+<li>任意数量的<reltable>元素，允许你定义内容之间的关系。</li>
+</ul>
+<p>示例：</p>
+<p><img src="../../images/DITA_create_map.png" alt="create a map" /></p>
+<h2><a class="header" href="#向一个-map-添加-topic-引用" id="向一个-map-添加-topic-引用">向一个 map 添加 topic 引用</a></h2>
+<p><topicref>元素结构如下：</p>
+<pre><code>&lt;topicref href=&quot;filepath/filename.dita&quot;&gt;
+</code></pre>
+<p>href属性包含一个链接，该链接指向map中某个topic。DITA规定，map中<topicref>元素指向的topic位置不能高于map本身，否则会导致某些输出类型报错。因此，map最好存储在最高一层。</p>
+<p><topicref>元素可能包含以下元素：</p>
+<ul>
+<li><topicmeta>元素，定义关于被引用topic的元数据。</li>
+<li>任意数量的<topicref>元素。</li>
+<li>任意数量的<mapref>元素。</li>
+</ul>
+<p>在嵌套<topicref>元素时，重要的一点是始终记得你的最终输出。DITA结构并不限制嵌套的<topicref>元素的数量限制，map中<topicref>元素可以包含任意数量的<topicref>元素。但是，每个被嵌套的<topicref>元素通常对应发布输出中的一个新的标题级别。所以，普遍认可的最好做法是，避免五层以上的<topicref>元素嵌套（最理想的是不超过二或三层）。</p>
+<p><img src="../../images/DITA_add_topic.png" alt="DITA_add_topic" /></p>
+<h2><a class="header" href="#向一个-map-添加-map-引用" id="向一个-map-添加-map-引用">向一个 map 添加 map 引用</a></h2>
+<p><map>元素结构如下：</p>
+<pre><code>&lt;mapref href=&quot;filepath/filename.ditamap&quot; format=&quot;ditamap&quot;&gt;
+</code></pre>
+<p>href 属性包含了指向你的主 map 中引用到另一 map 的链接。format 属性明确了你正在链接到一个 DITA map。</p>
+<p><mapref>元素只能包含<topicmeta>、<data>和<data-about>元数据元素。按照 DITA 规定，不能在一个<mapref>元素中嵌套<topicref>或<mapref>元素。</p>
+<p>就像<topicref>元素允许你在多个 map 中重用一个 topic 一样，<mapref>元素允许你重用很多 topic。通过一次性建立一个 map 并在其他 map 中引用该 map，你可以节约时间和精力，无需反复创建 map 中相同的系列，或具有相同层级结构的<topicref>元素。</p>
+<p>除了重用，<mapref>元素为你提供了额外的内容发布灵活性。你可以在一个大的 map 中组合相关 map，这样你就可以为整个产品家族迅速交付所有内容。你还可以使用<mapref>元素来为 map 添加词汇表。</p>
+<p><img src="../../images/DITA_add_mapref.png" alt="mapref" /></p>
+<blockquote>
+<p>1本文内容部分引用自 <a href="www.learningdita.cn">TC互联</a>，仅作学习分享。</p>
+<p>如需转载请注明作者与来源。</p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../TC_Paper/Structured_writing/StructuredWriting_DITA_Learningguide.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../TC_Paper/TC_Paper_简明英文写作之ASD-STE100的写作规则有哪些.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../TC_Paper/Structured_writing/StructuredWriting_DITA_Learningguide.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../TC_Paper/TC_Paper_简明英文写作之ASD-STE100的写作规则有哪些.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
