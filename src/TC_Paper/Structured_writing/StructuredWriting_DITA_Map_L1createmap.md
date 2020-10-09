@@ -27,7 +27,7 @@ Map 可以包含元数据，例如产品信息、版权和出版日期。Map 中
 
 示例：
 
-![create a map](\src\images\DITA_create_map.png)
+![create a map](../../images/DITA_create_map.png)
 
 ## 向一个 map 添加 topic 引用
 
@@ -47,7 +47,7 @@ href属性包含一个链接，该链接指向map中某个topic。DITA规定，m
 
 在嵌套<topicref>元素时，重要的一点是始终记得你的最终输出。DITA结构并不限制嵌套的<topicref>元素的数量限制，map中<topicref>元素可以包含任意数量的<topicref>元素。但是，每个被嵌套的<topicref>元素通常对应发布输出中的一个新的标题级别。所以，普遍认可的最好做法是，避免五层以上的<topicref>元素嵌套（最理想的是不超过二或三层）。
 
-![DITA_add_topic](\src\images\DITA_add_topic.png)
+![DITA_add_topic](../../images/DITA_add_topic.png)
 
 ## 向一个 map 添加 map 引用
 
@@ -65,7 +65,7 @@ href 属性包含了指向你的主 map 中引用到另一 map 的链接。forma
 
 除了重用，<mapref>元素为你提供了额外的内容发布灵活性。你可以在一个大的 map 中组合相关 map，这样你就可以为整个产品家族迅速交付所有内容。你还可以使用<mapref>元素来为 map 添加词汇表。
 
-![mapref](\src\images\DITA_add_mapref.png)
+![mapref](../../images/DITA_add_mapref.png)
 
 > 1本文内容部分引用自 [TC互联](www.learningdita.cn)，仅作学习分享。
 >
