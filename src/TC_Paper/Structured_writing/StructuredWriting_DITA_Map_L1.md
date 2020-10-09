@@ -2,7 +2,7 @@
 
 ## ditamap 文件的定义和目的
 
-- 联结 topics
+- 联结 topic
 - 导航的基础、联结内容
 - 决定交付物展现的 topic
 - 为满足用户需求，为工作流中一系列 topic 设定导航
@@ -18,9 +18,9 @@ Map 可以用来编辑、组织和定义 DITA topic 之间的关系。一个  ma
 
 Map 可以包含元数据，例如产品信息、版权和出版日期。Map 中的元数据可用来帮助你的公司更有效地管理和分发你的内容，或帮助你的顾客更轻松地找到所需内容。
 
-一个map至少要包含一个根``<map>``（root `<map>`）元素。`<map>`元素可以包含以下元素：
+一个 map 至少要包含一个根``<map>``（root `<map>`）元素。`<map>`元素可以包含以下元素：
 
-- ``<title>``元素，允许你为map命名（例如“某产品的用户指南”）。`<title>`元素中的文本也可以用作输出文档的标题。
+- ``<title>``元素，允许你为 map 命名（例如“某产品的用户指南”）。`<title>`元素中的文本也可以用作输出文档的标题。
 - 任意数量的`<topicref>`元素，允许你在 map 中引用 topic。一个`<topicref>`元素可以包含其它`<topicref>`元素。
 - 任意数量的`<mapref>`元素，允许你在主 map 中引用其它 map。
 - 任意数量的`<reltable>`元素，允许你定义内容之间的关系。
@@ -37,11 +37,11 @@ Map 可以包含元数据，例如产品信息、版权和出版日期。Map 中
 `<topicref href="filepath/filename.dita">`
 ```
 
-href属性包含一个链接，该链接指向map中某个topic。DITA规定，map中`<topicref>`元素指向的topic位置不能高于map本身，否则会导致某些输出类型报错。因此，map最好存储在最高一层。
+href 属性包含一个链接，该链接指向 map 中某个 topic。DITA 规定，map 中`<topicref>`元素指向的 topic 位置不能高于 map 本身，否则会导致某些输出类型报错。因此，map 最好存储在最高一层。
 
 `<topicref>`元素可能包含以下元素：
 
-- `<topicmeta>`元素，定义关于被引用topic的元数据。
+- `<topicmeta>`元素，定义关于被引用 topic 的元数据。
 - 任意数量的`<topicref>`元素。
 - 任意数量的`<mapref>`元素。
 
