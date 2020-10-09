@@ -14,7 +14,7 @@ Welcome to the world of technical communication. Feel free to add your TC story 
 
 # Platforms
 
-- Wechat Platfrom: 俗人茶室
+- Wechat Platfor.m: 俗人茶室
 - Github: [Technical_Communication](https://github.com/ireneontheway/ireneontheway.github.io)
 - twitter: @Irenehalo
 
@@ -43,5 +43,5 @@ Classical learning resources of technical communication.
 
 - DQTI (Developing Quality Technical Information)
 - DITA Structured Writing 
-- 
-ASD-STE100 (Simplified Technical English)
+- ASD-STE100 (Simplified Technical English)
+- ...
