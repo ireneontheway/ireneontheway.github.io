@@ -4,7 +4,7 @@ Welcome to the world of technical communication. Feel free to add your TC story 
 this community:
 
 - TC_Technology: Any information about technology.
-- TC_Communication: Useful skils about communication.
+- TC_Communication: Useful skills about communication.
 - TC_Paper: Classical learning resources or study notes of technical communication.
 
 ## Clone Repo
