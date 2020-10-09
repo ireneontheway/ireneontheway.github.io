@@ -67,6 +67,6 @@ href 属性包含了指向你的主 map 中引用到另一 map 的链接。forma
 
 ![mapref](../../images/DITA_add_mapref.png)
 
-> 1本文内容部分引用自 [TC互联](www.learningdita.cn)，仅作学习分享。
+> 本文内容引自 [TC互联](www.learningdita.cn)，仅作学习分享。
 >
 > 如需转载请注明作者与来源。
