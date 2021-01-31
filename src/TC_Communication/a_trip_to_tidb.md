@@ -2,13 +2,13 @@
 
 # Intro 
 
-![TiDB_Travel_1](../../images/TiDB_Travel_1.png)
+![TiDB_Travel_1](../images/TiDB_Travel_1.png)
 
 Good afternoon,ladies and gentlemen!  You are welcome to visit  the city of TiDB. My name is Irene. It's my honor to be your tour guide. Now we are taking the Pingcap Airline flight No. I18N. Our flight will take about 30 minutes to the destination. Before landing, let me show you an overview of TiDB.
 
 ## Basic concept - ACID
 
-![TiDB_Travel_2](../../images/TiDB_Travel_2.png)
+![TiDB_Travel_2](../images/TiDB_Travel_2.png)
 
 First of all let me introduce some basic concept of database. Just like the traditional habits in your human world. Understanding them help you know TiDB better.
 
@@ -21,7 +21,7 @@ First is about ACID. It is the abbreviation of Atomicity, consistency,isolation 
 
 ## Basic concept - OLTP + OLAP
 
-![TiDB_Travel_3](../../images/TiDB_Travel_3.png)
+![TiDB_Travel_3](../images/TiDB_Travel_3.png)
 
 Next concept is OLTP  and OLAP. I made a table to compare the difference between them.
 
@@ -35,7 +35,7 @@ It is Hybrid Transactional and Analytical Processing, an emerging application ar
 
 ## History 
 
-![TiDB_Travel_4](../../images/TiDB_Travel_4.png)
+![TiDB_Travel_4](../images/TiDB_Travel_4.png)
 
 Our city always regard as an open-source, cloud-native, distributed SQL database for elastic **scale** and real-time analytics. Actually, it is a modern city with long history, which can be traced back to the 1970s.   The begining of the database.
 
@@ -47,7 +47,7 @@ Therefore, based on the latest technology and long history, TiDB is modern and s
 
 ## Overview 
 
-![TiDB_Travel_5](../../images/TiDB_Travel_5.png)
+![TiDB_Travel_5](../images/TiDB_Travel_5.png)
 
 So Welcome to the city of TiDB. Today we'll have a sightseeing in this modern city. As a database, TiDB has a collection of data residents. As a database management system, TiDB uses a systematic way to manage its citizens.  Create, retrieve, update and delete data.
 
@@ -55,7 +55,7 @@ So Welcome to the city of TiDB. Today we'll have a sightseeing in this modern ci
 
 This is TiDB City Map. It shows the basic architecture of TiDB city. 
 
-![TiDB_Travel_6](../../images/TiDB_Travel_6.png)
+![TiDB_Travel_6](../images/TiDB_Travel_6.png)
 
 ●TiKV is the community in the city: It is responsible for storing data, essentially is a KV storage engine
 
@@ -71,7 +71,7 @@ This map shows our itinerary of the trip. So let's go to the first top.
 
 # Stop 1 Community: TiKV
 
-![TiDB_Travel_7](../../images/TiDB_Travel_7.png)
+![TiDB_Travel_7](../images/TiDB_Travel_7.png)
 
 - Transaction: The transaction model is inspired by Google's **'Percolator**. It adopts optimistic locking model, which means during the transaction, conflicts between writes will not be detected. Only during the submission process will the conflict detection be performed. **The earlier completion of the submission** between the two parties in the conflict will write successfully, and the other party will try to execute the entire transaction again.
 - Housing Registration: MVCC provides concurrent access to the database without locking the data. MVCC in TiKV is achieved by adding Version after the Key. It seems like making Housing Registration for our data residents.
@@ -82,7 +82,7 @@ This map shows our itinerary of the trip. So let's go to the first top.
 
 Like the human world, in TiKV, we also have vehicles for transportation.  It is called region. A region is a basic unit of data movement. 
 
-![TiDB_Travel_8](../../images/TiDB_Travel_8.png)
+![TiDB_Travel_8](../images/TiDB_Travel_8.png)
 
 In human world, we have to own a key and a license so that we can drive the car. The same with TiKV,  TiKV is a huge map that stores Key-Value pairs. TiKV divides the entire Key-Value space into many segments. Each segment is a series of consecutive Key-Value pairs, we call each segment a Region. And we will try to keep balanced number of data stored in each Region that will not exceed a certain size.
 
@@ -92,7 +92,7 @@ In human world, we have to own a key and a license so that we can drive the car.
 
 In human world, too many cars crowded together will cause traffic jam. So we have traffic control system. In TiKV, this is called Raft. More than the traffic control system can do in the real world, Raft can deal with the single point of failure so that maintain the auto failover. 
 
-![TiDB_Travel_9](../../images/TiDB_Travel_9.png) 
+![TiDB_Travel_9](../images/TiDB_Travel_9.png) 
 
 There are three main functions of Raft:
 
@@ -116,7 +116,7 @@ Ok , now we've finished visiting our first stop that is about the life and trans
 
 Stop 2 is the workplace in TiDB. For the data residents inside it, their daily work is about computation.
 
-![TiDB_Travel_10](../../images/TiDB_Travel_10.png)
+![TiDB_Travel_10](../images/TiDB_Travel_10.png)
 
 TiDB is highly layered and stateless. 
 
@@ -130,7 +130,7 @@ The SQL layer of TiDB is much more complex, with many modules and layers. TiDB m
 
 Next stop is the traffic center of TiDB. It is the placement driver. The traffic center includes traffic control systems as I mention above the  Raft. As the director of TiDB, PD provides the God’s view of the entire cluster and work hard to keep the data flow safe and balanced.
 
-![TiDB_Travel_11](../../images/TiDB_Travel_11.png)
+![TiDB_Travel_11](../images/TiDB_Travel_11.png)
 
 Its  jobs are:
 
@@ -142,7 +142,7 @@ Its  jobs are:
 
 So how does the traffic center work? What's the relationship between Raft store and PD. 
 
-![TiDB_Travel_12](../../images/TiDB_Travel_12.png)
+![TiDB_Travel_12](../images/TiDB_Travel_12.png)
 
 PD does its job by..
 
@@ -173,7 +173,7 @@ Let's move to  the last stop, our city facilities. more than TiSpark
 
 TiSpark is an OLAP solution that runs Spark SQL directly on TiKV. It takes advantages of both the Spark platform and the distributed TiKV cluster and seamlessly glues to TiDB, the distributed OLTP database, to provide a HTAP solution to serve as a one-stop solution for both online transactions and analysis.
 
-![TiDB_Travel_13](../../images/TiDB_Travel_13.png)
+![TiDB_Travel_13](../images/TiDB_Travel_13.png)
 
 [TiDB Lightning](https://github.com/pingcap/tidb-lightning) is a tool used for fast full import of large amounts of data into a TiDB cluster. You can use it to
 
@@ -186,7 +186,7 @@ TiDB Operator is an automatic operation and maintenance system for TiDB clusters
 
 Dear friends，our trip will be over soon. Before leaving,  I'd like to make a conclusion on the features of our city.
 
-![TiDB_Travel_14](../../images/TiDB_Travel_14.png)
+![TiDB_Travel_14](../images/TiDB_Travel_14.png)
 
 - Highly compatible with MySQL
 
