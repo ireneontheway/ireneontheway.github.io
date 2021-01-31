@@ -1,0 +1,378 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>A trip to TiDB - Technical Communication</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        
+        <link rel="shortcut icon" href="../favicon.png">
+        
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Introduction</a></li><li class="chapter-item expanded "><a href="../Contributing/CONTRIBUTING.html"><strong aria-hidden="true">1.</strong> Contributing</a></li><li class="chapter-item expanded "><a href="../TC_Technology/index.html"><strong aria-hidden="true">2.</strong> TC technology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../TC_Technology/TC_Tech_StructuredWriting_XML_Intro.html"><strong aria-hidden="true">2.1.</strong> XML Intro</a></li><li class="chapter-item expanded "><a href="../TC_Technology/TC_Tech_database_basic_knowledge.html"><strong aria-hidden="true">2.2.</strong> Database Basic Knowledge</a></li><li class="chapter-item expanded "><a href="../TC_Technology/TC_Tech_what_is_api.html"><strong aria-hidden="true">2.3.</strong> What is API</a></li></ol></li><li class="chapter-item expanded "><a href="../TC_Communication/index.html"><strong aria-hidden="true">3.</strong> TC Communication</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../TC_Communication/思源华为杯创译大赛创作思路.html"><strong aria-hidden="true">3.1.</strong> 思源华为杯创译大赛创作思路</a></li><li class="chapter-item expanded "><a href="../TC_Communication/a_trip_to_tidb.html" class="active"><strong aria-hidden="true">3.2.</strong> A trip to TiDB</a></li></ol></li><li class="chapter-item expanded "><a href="../TC_Paper/index.html"><strong aria-hidden="true">4.</strong> TC Paper</a></li><li class="chapter-item expanded "><a href="../TC_Paper/DQTI/index.html"><strong aria-hidden="true">5.</strong> DQTI</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../TC_Paper/Structured_writing/index.html"><strong aria-hidden="true">5.1.</strong> Structured Writing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../TC_Paper/Structured_writing/StructuredWriting_DITA_Intro.html"><strong aria-hidden="true">5.1.1.</strong> DITA Intro</a></li><li class="chapter-item expanded "><a href="../TC_Paper/Structured_writing/StructuredWriting_DITA_Learningguide.html"><strong aria-hidden="true">5.1.2.</strong> DITA Learning Guide</a></li><li class="chapter-item expanded "><a href="../TC_Paper/Structured_writing/StructuredWriting_DITA_Map_L1.html"><strong aria-hidden="true">5.1.3.</strong> DITA Map L1</a></li></ol></li><li class="chapter-item expanded "><a href="../TC_Paper/TC_Paper_简明英文写作之ASD-STE100的写作规则有哪些.html"><strong aria-hidden="true">5.2.</strong> 简明英文写作之ASD-STE100的写作规则有哪些</a></li></ol></li><li class="chapter-item expanded "><a href="../LICENSE/LICENSE.html"><strong aria-hidden="true">6.</strong> LICENSE</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Technical Communication</h1>
+
+                    <div class="right-buttons">
+                        
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#a-trip-to-tidb" id="a-trip-to-tidb">A trip to TiDB</a></h1>
+<h1><a class="header" href="#intro" id="intro">Intro</a></h1>
+<p><img src="../../images/TiDB_Travel_1.png" alt="TiDB_Travel_1" /></p>
+<p>Good afternoon,ladies and gentlemen!  You are welcome to visit  the city of TiDB. My name is Irene. It's my honor to be your tour guide. Now we are taking the Pingcap Airline flight No. I18N. Our flight will take about 30 minutes to the destination. Before landing, let me show you an overview of TiDB.</p>
+<h2><a class="header" href="#basic-concept---acid" id="basic-concept---acid">Basic concept - ACID</a></h2>
+<p><img src="../../images/TiDB_Travel_2.png" alt="TiDB_Travel_2" /></p>
+<p>First of all let me introduce some basic concept of database. Just like the traditional habits in your human world. Understanding them help you know TiDB better.</p>
+<p>First is about ACID. It is the abbreviation of Atomicity, consistency,isolation and durability.</p>
+<ul>
+<li>Atomic: A transaction is an indivisible minimum unit of work. It means either all the statements in the transaction are applied to the database or none are applied. </li>
+<li>Consistent: The database always transitions from one consistent state to another consistent state.</li>
+<li>Isolated: Isolation is used to define the degree of mutual isolation between transactions. While multiple transactions can be executed by one or more users simultaneously, one transaction should not see the effects of other in-progress transactions. </li>
+<li>Durable: Once the transaction is committed, the changes made will be permanently saved in the database</li>
+</ul>
+<h2><a class="header" href="#basic-concept---oltp--olap" id="basic-concept---oltp--olap">Basic concept - OLTP + OLAP</a></h2>
+<p><img src="../../images/TiDB_Travel_3.png" alt="TiDB_Travel_3" /></p>
+<p>Next concept is OLTP  and OLAP. I made a table to compare the difference between them.</p>
+<p>OLTP is Online transactional processing. OLAP is Online analytical processing.</p>
+<p>The users of OLTP are Operators and Junior managers. They use OLTP for Daily operation. The users of OLAP are mainly Decision maker; Senior manager. They use OLAP for Analysis and decision. Different from OLAP, OLTP require real-time response. </p>
+<p>To combine the functions and advantages of these two technology , HTAP appears.</p>
+<p>It is Hybrid Transactional and Analytical Processing, an emerging application architecture. TiDB belongs to HTAP. It supports 100% OLTP + 80% OLAP. So It breaks the wall&quot; between transaction processing and analytics.</p>
+<h2><a class="header" href="#history" id="history">History</a></h2>
+<p><img src="../../images/TiDB_Travel_4.png" alt="TiDB_Travel_4" /></p>
+<p>Our city always regard as an open-source, cloud-native, distributed SQL database for elastic <strong>scale</strong> and real-time analytics. Actually, it is a modern city with long history, which can be traced back to the 1970s.   The begining of the database.</p>
+<p>From RDBMS, NoSQL to NewSQL , different types of databases evolve to meet different needs. </p>
+<p>However, RDBMs is complicated to implement and hard to process.  Its response time is slow when facing with huge amount of data. NoSQL does not fit for complicated scenarios or transactions and has no ACID transactions. . And then a new solution to these problems appear. That is newSQL, such as google Spanner and Google F1.  It combines the advantages  of RDBMS and NoSQL. And handles the limitations of them. TiKV and TiDB basically correspond to Google Spanner and Google F1, which are rebuilt by using Open Source. </p>
+<p>Therefore, based on the latest technology and long history, TiDB is modern and shows us historic reform in the database development.</p>
+<h2><a class="header" href="#overview" id="overview">Overview</a></h2>
+<p><img src="../../images/TiDB_Travel_5.png" alt="TiDB_Travel_5" /></p>
+<p>So Welcome to the city of TiDB. Today we'll have a sightseeing in this modern city. As a database, TiDB has a collection of data residents. As a database management system, TiDB uses a systematic way to manage its citizens.  Create, retrieve, update and delete data.</p>
+<h1><a class="header" href="#architecture" id="architecture">Architecture</a></h1>
+<p>This is TiDB City Map. It shows the basic architecture of TiDB city. </p>
+<p><img src="../../images/TiDB_Travel_6.png" alt="TiDB_Travel_6" /></p>
+<p>●TiKV is the community in the city: It is responsible for storing data, essentially is a KV storage engine</p>
+<p>●TiDB is the workplace in the city: It receives the SQL request, finds the data stored on TiKV through the metadata in the PD, and interacts with TiKV to return the result to the users.</p>
+<p>●PD cluster is the traffic center in the city: It is the manager of the cluster mainly stores metadata, performs load balancing, and assigns a globally unique transaction ID.</p>
+<p>●TiSpark is one of the city facilities: as a component, it solves users' complex OLAP query requirements.</p>
+<p>Also, there are other convenient facilities like TiDB Lightning and TiDB Operator (Facilitate the deployment of components on the cloud). I'll cover them later.</p>
+<p>This map shows our itinerary of the trip. So let's go to the first top. </p>
+<h1><a class="header" href="#stop-1-community-tikv" id="stop-1-community-tikv">Stop 1 Community: TiKV</a></h1>
+<p><img src="../../images/TiDB_Travel_7.png" alt="TiDB_Travel_7" /></p>
+<ul>
+<li>Transaction: The transaction model is inspired by Google's <strong>'Percolator</strong>. It adopts optimistic locking model, which means during the transaction, conflicts between writes will not be detected. Only during the submission process will the conflict detection be performed. <strong>The earlier completion of the submission</strong> between the two parties in the conflict will write successfully, and the other party will try to execute the entire transaction again.</li>
+<li>Housing Registration: MVCC provides concurrent access to the database without locking the data. MVCC in TiKV is achieved by adding Version after the Key. It seems like making Housing Registration for our data residents.</li>
+<li>Taffic Control: With Raft, we can copy data to multiple machines to prevent single machine failure. Raft is an important transportation way in our city, which can be called as a consensus algorithom. It is very important in TiDB. I'll explain it further in the next slide. </li>
+<li>Apartment: Through the stand-alone RocksDB, we can quickly store data on the disk. So RocksDB seems like the apartment for the data residents.</li>
+</ul>
+<h2><a class="header" href="#car--region" id="car--region">Car : Region</a></h2>
+<p>Like the human world, in TiKV, we also have vehicles for transportation.  It is called region. A region is a basic unit of data movement. </p>
+<p><img src="../../images/TiDB_Travel_8.png" alt="TiDB_Travel_8" /></p>
+<p>In human world, we have to own a key and a license so that we can drive the car. The same with TiKV,  TiKV is a huge map that stores Key-Value pairs. TiKV divides the entire Key-Value space into many segments. Each segment is a series of consecutive Key-Value pairs, we call each segment a Region. And we will try to keep balanced number of data stored in each Region that will not exceed a certain size.</p>
+<h2><a class="header" href="#traffic-control-raft" id="traffic-control-raft">Traffic Control: Raft</a></h2>
+<p>In human world, too many cars crowded together will cause traffic jam. So we have traffic control system. In TiKV, this is called Raft. More than the traffic control system can do in the real world, Raft can deal with the single point of failure so that maintain the auto failover. </p>
+<p><img src="../../images/TiDB_Travel_9.png" alt="TiDB_Travel_9" /> </p>
+<p>There are three main functions of Raft:</p>
+<ul>
+<li>Leader election</li>
+<li>Membership change</li>
+<li>Log replication</li>
+</ul>
+<p>Region corresponds to a data range in a Store. Each Region is replicated to multiple Nodes. A replica of a Region is called a Peer. These multiple replicas form a Raft group, just like a car group in the human world. Also, raft will elect a group leader for better management. The leader accepts data from the client and sends data to followers.  Followers receive data from the leader and response to the leader.</p>
+<p>TiKV uses Raft for data migration, and every data change will be implemented as a Raft log. Through the log replication function of Raft, the data can be safely and reliably migrated to most nodes in the Group.</p>
+<p>It also has interesting rules of membership change. Due to the time limitation, I will not explain it further.</p>
+<p>Ok , now we've finished visiting our first stop that is about the life and transport of TiKV. Let's go to the second stop that is about computation.</p>
+<h1><a class="header" href="#stop-2-workplace-tidb" id="stop-2-workplace-tidb">Stop 2 Workplace: TiDB</a></h1>
+<p>Stop 2 is the workplace in TiDB. For the data residents inside it, their daily work is about computation.</p>
+<p><img src="../../images/TiDB_Travel_10.png" alt="TiDB_Travel_10" /></p>
+<p>TiDB is highly layered and stateless. </p>
+<p>TiDB Server can directly expand the machine, which is transparent to users and has no upper limit. </p>
+<p>The SQL layer of TiDB is much more complex, with many modules and layers. TiDB map SQLs queries to KV queries, then obtain the corresponding data through the KV interface, and finally perform various calculations.</p>
+<h1><a class="header" href="#stop-3-traffic-center-pd" id="stop-3-traffic-center-pd">Stop 3 Traffic Center: PD</a></h1>
+<p>Next stop is the traffic center of TiDB. It is the placement driver. The traffic center includes traffic control systems as I mention above the  Raft. As the director of TiDB, PD provides the God’s view of the entire cluster and work hard to keep the data flow safe and balanced.</p>
+<p><img src="../../images/TiDB_Travel_11.png" alt="TiDB_Travel_11" /></p>
+<p>Its  jobs are:</p>
+<ul>
+<li>
+<p>Storing all the metadata info for clusters, regions</p>
+</li>
+<li>
+<p>Maintaining the replica constraints, 3 by default</p>
+</li>
+<li>
+<p>Handling the data movements and balances the workload</p>
+</li>
+</ul>
+<p>So how does the traffic center work? What's the relationship between Raft store and PD. </p>
+<p><img src="../../images/TiDB_Travel_12.png" alt="TiDB_Travel_12" /></p>
+<p>PD does its job by..</p>
+<ul>
+<li>Collect enough information</li>
+</ul>
+<p>The PD collects information through the heartbeat from TiKV node and heartbeat from the leader of Raft Group;</p>
+<p>and PD obtains detailed data of the entire cluster. Extracts info through management interface</p>
+<ul>
+<li>Scheduling policy</li>
+</ul>
+<p>It produces scheduling operations based on this information and some scheduling policy.</p>
+<p>It has many Scheduling policy, such as</p>
+<ol>
+<li>The number of Replicas in a Region is correct:</li>
+<li><strong>Multiple Replicas in a Raft Group are not in the same position:</strong></li>
+</ol>
+<ul>
+<li>basic operations</li>
+</ul>
+<p>Each time the PD receives a heartbeat from the Region Leader, the PD checks whether there is any operation to be performed on this Region, and returns the required operation to the Region Leader through the heartbeat. And then PD checks the execution result in the subsequent heartbeat.</p>
+<p>Let's move to  the last stop, our city facilities. more than TiSpark</p>
+<h1><a class="header" href="#stop-4-city-facilities-tispark--tidb-lightning" id="stop-4-city-facilities-tispark--tidb-lightning">Stop 4 City Facilities: TiSpark + TiDB Lightning</a></h1>
+<p>TiSpark is an OLAP solution that runs Spark SQL directly on TiKV. It takes advantages of both the Spark platform and the distributed TiKV cluster and seamlessly glues to TiDB, the distributed OLTP database, to provide a HTAP solution to serve as a one-stop solution for both online transactions and analysis.</p>
+<p><img src="../../images/TiDB_Travel_13.png" alt="TiDB_Travel_13" /></p>
+<p><a href="https://github.com/pingcap/tidb-lightning">TiDB Lightning</a> is a tool used for fast full import of large amounts of data into a TiDB cluster. You can use it to</p>
+<ul>
+<li>Import <strong>large amounts</strong> of <strong>new</strong> data <strong>quickly</strong></li>
+<li>Back up and restore all the data</li>
+</ul>
+<p>TiDB Operator is an automatic operation and maintenance system for TiDB clusters on Kubernetes. It provides TiDB full lifecycle management including deployment, upgrade, capacity expansion, backup and restoration, and configuration changes. With TiDB Operator, TiDB can run seamlessly on public cloud or privately deployed Kubernetes clusters.</p>
+<h1><a class="header" href="#why-we-choose-tidb" id="why-we-choose-tidb">Why we choose TiDB</a></h1>
+<p>Dear friends，our trip will be over soon. Before leaving,  I'd like to make a conclusion on the features of our city.</p>
+<p><img src="../../images/TiDB_Travel_14.png" alt="TiDB_Travel_14" /></p>
+<ul>
+<li>
+<p>Highly compatible with MySQL</p>
+</li>
+<li>
+<p>Horizontal elastic scalability can cope with high concurrency and mass storage</p>
+</li>
+<li>
+<p>use Raft to ensure consistency to keep high availability, especially real financial high availability,</p>
+</li>
+<li>
+<p>We have lots of convenient facilities, such as TiDB operator. It enables TiDB to be a Cloud native SQL database, supporting public cloud and private cloud</p>
+</li>
+<li>
+<p>TiDB is an One-stop HTAP solution</p>
+</li>
+<li>
+<p>It supports distributed transaction, support ACID transaction,</p>
+</li>
+</ul>
+<p>That is all the reason for us to choose TiDB.</p>
+<h1><a class="header" href="#the-end" id="the-end">The end</a></h1>
+<p>The time has gone by quickly and your trip to TiDB drawing to a close. Hope you enjoy your trip. Thanks for your support.</p>
+<blockquote>
+<p>本文主要内容参考自 TiDB 官网博客，仅作学习分享。作者：胡清莹 </p>
+<p>如需转载请注明作者与来源。</p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../TC_Communication/思源华为杯创译大赛创作思路.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../TC_Paper/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../TC_Communication/思源华为杯创译大赛创作思路.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../TC_Paper/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
