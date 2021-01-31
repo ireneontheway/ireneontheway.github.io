@@ -1,11 +1,10 @@
 # Contributing
 
-Welcome to the world of technical communication. Feel free to add your TC story in this repo. You can start from any one of the following items to help improve
-this community:
+Welcome to the world of technical communication. Feel free to add your TC story in this repo. You can start from any one of the following items to help improve this community:
 
-- TC_Technology: Any information about technology.
-- TC_Communication: Useful skills about communication.
-- TC_Paper: Classical learning resources or study notes of technical communication.
+- TC_Technology: The knowledge base on technology.
+- TC_Paper: The knowledge base on technical writing.
+- TC_Communication: Blogs about technology, technical writing and communication.
 
 ## Clone Repo
 
