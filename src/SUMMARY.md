@@ -16,9 +16,10 @@
     * [DQTI Task Orientation](TC_Paper/DQTI/TC_Paper_DQTI_task_orientation.md)
     * [DQTI Task Orientation02](TC_Paper/DQTI/TC_Paper_DQTI_task_orientation02.md)
     * [DQTI Completeness](TC_Paper/DQTI/TC_Paper_DQTI_completeness.md)
-    * [DITA Intro](TC_Paper/Structured_writing/StructuredWriting_DITA_Intro.md)
-    * [DITA Learning Guide](TC_Paper/Structured_writing/StructuredWriting_DITA_Learningguide.md)
-    * [DITA Map L1](TC_Paper/Structured_writing/StructuredWriting_DITA_Map_L1.md)
+    * [Structured Writing](TC_Paper/Structured_writing/index.md)
+        * [DITA Intro](TC_Paper/Structured_writing/StructuredWriting_DITA_Intro.md)
+        * [DITA Learning Guide](TC_Paper/Structured_writing/StructuredWriting_DITA_Learningguide.md)
+        * [DITA Map L1](TC_Paper/Structured_writing/StructuredWriting_DITA_Map_L1.md)
     * [简明英文写作之ASD-STE100的写作规则有哪些](TC_Paper/TC_Paper_简明英文写作之ASD-STE100的写作规则有哪些.md)
     
 * [TC Communication](TC_Communication/index.md)
