@@ -48,30 +48,10 @@ After starting `mdbook`,it will automatically generate directories
 and files according to the `SUMMARY.md`.The commands to start document 
 preview under each system are as follows:
 
-- Window
+## Run on local machine
 
-```
-bin\win\mdbook serve
-```
-
-- Mac
-
-```
-bin/mac/mdbook serve
-```
-
-- Linux 
-
-```
-bin/linux/mdbook serve
-```
-
--  Mac and Linux systems need to give mdbook executable permission：
-
-```
-sudo chmod 755 bin/mac/mdbook
-
-sudo chmod 755 bin/linux/mdbook
+```shell
+chmod +x run.sh && run.sh
 ```
 
 ## Write articles
