@@ -8,13 +8,13 @@
 - accuracy
 - completeness
 
->Easy to understand
+> Easy to understand
 
 - clarify
 - concreteness
 - style
   
->Easy to find
+> Easy to find
 
 - organization
 - retrievability
@@ -38,13 +38,13 @@ task orientation 指的是写作时注重指导用户如何完成任务。我们
 >
 > - Provide only a necessary amount of conceptual information in task topics
 >
-> 4.Focus on real tasks, not product functions
+> 4. Focus on real tasks, not product functions
 >
-> 5.Use headings that reveal the tasks
+> 5. Use headings that reveal the tasks
 >
-> 6.Divide tasks into discrete subtasks
+> 6. Divide tasks into discrete subtasks
 >
-> 7.Provide clear, step-by-step instructions
+> 7. Provide clear, step-by-step instructions
 >
 > - Make each step a clear action for users to take.
 >
@@ -57,17 +57,23 @@ task orientation 指的是写作时注重指导用户如何完成任务。我们
 
 接下来我就一一介绍七条规范。
 
-### 1.Write for the intended audience 为目标读者写作
+## 1.Write for the intended audience 为目标读者写作
 
-写作前要明确目标读者，如果是为管理者写作，写作只应该囊括高层次任务，例如评价和计划。如果是为终端用户，就要避免写系统性管理任务。要确定写的是用户关心的问题，写作的信息详细程度取决于用户的类型。
+写作前要明确目标读者，要确定写的是用户关心的问题，写作的信息详细程度取决于用户的类型。
+- 如果是为管理者写作，写作只应该囊括高层次任务，例如评价和计划。
+- 如果是为终端用户，就要避免写系统性管理任务。
 
-### 2.Present information from the user’s point of view从用户角度呈现信息
+![write_for_audience](../../images/audience.png)
 
-从用户角度呈现信息指的是要将用户拉入你讲述的“故事中”，使得他们能够简单理解你描述的任务，因此写作包含以下特点：
+## 2.Present information from the user’s point of view 从用户角度呈现信息
 
-- 一般使用“你”
+将用户拉入“故事中”，能够简单理解任务，因此写作包含以下特点：
+
+- 英文中一般使用 “You”，中文中避免第二人称
 - 使用主动语态，运用动词应该以用户视角
 - 解释操作
+
+![developer_content](../../images/developer_content.png)
 
 以下错误示例的写作角度不够贴近读者：
 
@@ -75,28 +81,30 @@ task orientation 指的是写作时注重指导用户如何完成任务。我们
 
 应该改为：
 
->If you shut down the system during processing, you might lose data. Use the START RECOVER command to restart the system and recover any data from the log.
+> If you shut down the system during processing, you might lose data. Use the START RECOVER command to restart the system and recover any data from the log.
 
 原版本行文语态是被动的，而且动作的发起者以及操作原因皆不明确。而修改后“you might lose data”就解释了此项操作的原因--- 避免丢失数据。
 
-TW具有信息优势，写作时可以预见读者在哪一步骤需要帮助，因此需要对症下药。
+写作时要思考读者在哪一个步骤可能遇到的问题并提供相应信息，做到有的放矢。
 
-### 3. Indicate a practical reason for information 表现信息的实用性
+## 3. Indicate a practical reason for information 表现信息的实用性
 
-为读者提供信息只达成了部分写作目标，用户需要实用的信息。他们要了解为什么你要传达这些信息，又如何关联他们的任务。要保证你提供的信息与任务相关需要遵循以下规范：
+这条针对于 how-to 类的文档，要思考写这些内容的目的是什么，和用户完成任务有什么关系。保证内容是有实用价值的，需要遵循以下规范：
 
 - 任务信息描述详略得当
 
   task topic 应该让用户明白传达此信息的目的。
 
-- task topic 中只写入必要的概念信息
+- task topic 中只写入必要的信息：
+  + 执行该操作的理由
+  + 执行该操作的需要（例如前提或软件配置）
+  + 执行操作的步骤
+  + 后续操作的信息
 
-  - 执行该操作的理由
-  - 执行该操作的需要（例如前提或软件配置）
-  - 执行操作的步骤
-  - 后续操作的信息
 
 不要混淆大量 conceptual 信息与 task 信息。用户只想知道怎么解决这一步操作而不想知道有关的知识。 task topic 中，尽早解释步骤，简述相关概念。
+
+
 
 今天就先介绍这三点，下一期文章会继续阐释后面的四条写作规范。
 
