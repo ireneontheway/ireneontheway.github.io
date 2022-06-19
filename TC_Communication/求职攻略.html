@@ -1,0 +1,478 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>First job 求职日记 - Technical Communication</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                        <link rel="shortcut icon" href="../favicon.png">
+                <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+                <link rel="stylesheet" href="../css/print.css" media="print">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Introduction</a></li><li class="chapter-item expanded "><a href="../CONTRIBUTING.html"><strong aria-hidden="true">1.</strong> Contribution</a></li><li class="chapter-item expanded "><a href="../TC_Technology/index.html"><strong aria-hidden="true">2.</strong> TC technology</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../TC_Technology/TC_Tech_StructuredWriting_XML_Intro.html"><strong aria-hidden="true">2.1.</strong> XML Intro</a></li><li class="chapter-item expanded "><a href="../TC_Technology/TC_Tech_database_basic_knowledge.html"><strong aria-hidden="true">2.2.</strong> Database Basic Knowledge</a></li><li class="chapter-item expanded "><a href="../TC_Technology/TC_Tech_what_is_api.html"><strong aria-hidden="true">2.3.</strong> What is API</a></li></ol></li><li class="chapter-item expanded "><a href="../TC_Communication/index.html"><strong aria-hidden="true">3.</strong> TC Communication</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../TC_Communication/思源华为杯创译大赛创作思路.html"><strong aria-hidden="true">3.1.</strong> 思源华为杯创译大赛创作思路</a></li><li class="chapter-item expanded "><a href="../TC_Communication/a_trip_to_tidb.html"><strong aria-hidden="true">3.2.</strong> A trip to TiDB</a></li><li class="chapter-item expanded "><a href="../TC_Communication/求职攻略.html" class="active"><strong aria-hidden="true">3.3.</strong> First job 求职日记</a></li></ol></li><li class="chapter-item expanded "><a href="../TC_Paper/index.html"><strong aria-hidden="true">4.</strong> TC Paper</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../TC_Paper/DQTI/index.html"><strong aria-hidden="true">4.1.</strong> DQTI</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../TC_Paper/DQTI/TC_Paper_developing_quality_technical_information.html"><strong aria-hidden="true">4.1.1.</strong> Developing Quality Technical Information</a></li><li class="chapter-item expanded "><a href="../TC_Paper/DQTI/TC_Paper_DQTI_accuracy.html"><strong aria-hidden="true">4.1.2.</strong> DQTI Accuracy</a></li><li class="chapter-item expanded "><a href="../TC_Paper/DQTI/TC_Paper_DQTI_accuracy02.html"><strong aria-hidden="true">4.1.3.</strong> DQTI Accuracy02</a></li><li class="chapter-item expanded "><a href="../TC_Paper/DQTI/TC_Paper_DQTI_task_orientation.html"><strong aria-hidden="true">4.1.4.</strong> DQTI Task Orientation</a></li><li class="chapter-item expanded "><a href="../TC_Paper/DQTI/TC_Paper_DQTI_task_orientation02.html"><strong aria-hidden="true">4.1.5.</strong> DQTI Task Orientation02</a></li><li class="chapter-item expanded "><a href="../TC_Paper/DQTI/TC_Paper_DQTI_completeness.html"><strong aria-hidden="true">4.1.6.</strong> DQTI Completeness</a></li></ol></li><li class="chapter-item expanded "><a href="../TC_Paper/Structured_writing/index.html"><strong aria-hidden="true">4.2.</strong> Structured Writing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../TC_Paper/Structured_writing/StructuredWriting_DITA_Intro.html"><strong aria-hidden="true">4.2.1.</strong> DITA Intro</a></li><li class="chapter-item expanded "><a href="../TC_Paper/Structured_writing/StructuredWriting_DITA_Learningguide.html"><strong aria-hidden="true">4.2.2.</strong> DITA Learning Guide</a></li></ol></li><li class="chapter-item expanded "><a href="../TC_Paper/TC_Paper_简明英文写作之ASD-STE100的写作规则有哪些.html"><strong aria-hidden="true">4.3.</strong> 简明英文写作之ASD-STE100的写作规则有哪些</a></li></ol></li><li class="chapter-item expanded "><a href="../Copyright.html"><strong aria-hidden="true">5.</strong> Copyright</a></li><li class="chapter-item expanded "><a href="../LICENSE.html"><strong aria-hidden="true">6.</strong> License</a></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">Technical Communication</h1>
+
+                    <div class="right-buttons">
+                                                <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                                                                        
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="first-job-求职日记"><a class="header" href="#first-job-求职日记">First job 求职日记</a></h1>
+<p>写此日记纪念人生中的第一份工作。</p>
+<p>有些工作就像爬山，路径是明确的，攀登的过程是艰辛且枯燥的，比如说医生、律师、教师。有些工作就像探险，前方遍布荆棘，迷雾重重，不知道下一步是惊喜还是惊恐，比如说我选的工作 technical writer （技术文档工程师）。</p>
+<p>从本科毕业考上研究生我就在思考该做怎样的工作，一份我能接受的工作最起码要有这样的特点：</p>
+<ul>
+<li>能做：能够利用得上我二十几年学习的知识和技能。</li>
+<li>不排斥做：不会让我觉得非常痛苦，如果是感兴趣的就更好了。</li>
+<li>能养活自己：达到上海平均月薪且不会累到猝死。</li>
+</ul>
+<p>于是乎 2020 年的春节我给自己粗略画了一张竞争力分析图，长这个样子：</p>
+<p><img src="../images/firstjob1.png" alt="竞争力分析" /></p>
+<p>总结来总结去，其实在写的时候就已经决定了要做 technical writer。不是因为理性分析觉得综合竞争力最强，因为我发现我喜欢<strong>冒险</strong>。</p>
+<p>我做很多事情虽然看起来是定了目标定了计划，但基本上都没有按计划走，而是随着直觉走的。只是说利用某种分析方法看起来仿佛是数据分析的结果，其实是为了进一步说服自己。就像写论文一样，先是脑子一拍写个论点，然后再找各种例子佐证，就算没法佐证，只要我很想做其他就不管了，干就完事了。</p>
+<p>回过头来看求职的时候做的事情很简单，投简历-复盘-实习-复盘-投简历，就是这个循环。但是每一步该踩的坑一个都没有漏掉。</p>
+<h2 id="打怪升级线路"><a class="header" href="#打怪升级线路">打怪升级线路</a></h2>
+<h3 id="20203-20204"><a class="header" href="#20203-20204">2020.3-2020.4</a></h3>
+<ul>
+<li>
+<p>参加商赛：花了两个月，从分析欧莱雅基础报告开始到最终做出app模型，获得了合格证书。</p>
+<p>因为沟通问题和队友QQ上大吵一架，让我明白了三件事。<strong>一是在找合伙人的时候要找水平相当的人合作说清楚诉求和工作大致计划；二是信任队友注意表示尊重，交给别人做的事情，自己只给建议不不要过多插手；三是合作中出现了问题必须及时沟通，坦诚直接，不要弯弯绕绕，否则误会矛盾只会越攒越多理不清楚。</strong></p>
+</li>
+<li>
+<p>投递实习：因为不知道做什么工作所以只要是大公司都投，包括金融、快消、财务、运营、四大等等。学校背景和实习经历不够基本上石沉大海。开始觉得<strong>必须把力气集中到一个点上去做，发挥自己的长处进行错位竞争</strong>，简历才有的写，才有可能获得体面的工作。于是，每天搜集国内外technical writer的工作机会、行业动态和学习资料。</p>
+</li>
+</ul>
+<h3 id="20205"><a class="header" href="#20205">2020.5</a></h3>
+<p>参加翻译大赛：腾讯、华为</p>
+<p>主要是为了凑满 0.5 的学术成果分数、积累好的作品有利于找工作</p>
+<h3 id="20206"><a class="header" href="#20206">2020.6</a></h3>
+<p>PingCAP 面试：是我主动联系的关注了很久的一位行业大佬推销我自己。面试中要求自我介绍、实习经历、技术写作理念、对数据库产品的理解等等。幸好我提前去B站自学了TiDB数据库的入门讲座。面试中会穿插英文交流，面试官非常尊重我，所以也慢慢从紧张到讲得流利起来了。</p>
+<p>这次经历我意识到找工作不是考试，<strong>只要我准备好，可以主动去找机会，而不是按部就班地被安排</strong>。</p>
+<h3 id="20207"><a class="header" href="#20207">2020.7</a></h3>
+<ul>
+<li>参与 PingCAP 实习：七月份顺利入职 PingCAP 进行远程实习。</li>
+<li>建立个人 Github 网页 ：因为疫情在家，有了很多独自思考的时间和空间。坚持每周一篇文章堆在仓库里。感谢之前实现时认识的一个程序员小伙伴 @Francis Du 在站点提了 issue，并主动帮助我建立了 <a href="https://ireneontheway.github.io/">Github 博客</a>。 <strong>原来开源的力量无处不在，个人的影响力可以连接和放大</strong>。这个博客网页为我后续推销自己起了很大的作用。</li>
+</ul>
+<h3 id="20208"><a class="header" href="#20208">2020.8</a></h3>
+<ul>
+<li>思源华为杯获奖分享：万万没想到拿了一等奖，就是因为我运用到了技术传播自学的一些理论。我觉得在翻译技术的专业性上可能并不是最优秀的，但是别人的作品可能只是翻译，而我是创译+设计，<strong>从阅读体验和视觉艺术上下了很多功夫</strong>所以才突出重围的。这个比赛本身没什么，但是我因为它认识了当年讲座介绍技术行业的老师，并且获得了参与 tcworld 的志愿者机会。</li>
+<li>获得华为简历内推机会：华为翻译中心主动问我的简历编号，当时全家以为稳进华为有点飘了。做着 PingCAP 的实习，心里想着华为，以为自己不得了了。但是三个月过去了，杳无音讯，可能是被我的简历劝退了= =，因为梦想的落空，至今对华为招聘怀恨在心(￢︿￢☆)。其实是太naive了，企业怎么可能不做任何面试就让你直接进去呢？又不是清华北大的nb人物。</li>
+<li>定期更新 <a href="https://ireneontheway.github.io/">Github 博客</a>：领导也有关注我的博客，提醒我<strong>版权和原创申明</strong>的问题。</li>
+</ul>
+<h3 id="20209"><a class="header" href="#20209">2020.9</a></h3>
+<ul>
+<li>参加 tcworld 2020：作为学生志愿者参与了行业大会，发现这个圈子真的很小。</li>
+<li><a href="https://ireneontheway.github.io/TC_Communication/a_trip_to_tidb.html">PingCAP 一个月学习总结</a>：学到很多，发现我特别喜欢类比，觉得这样很生动形象呢。</li>
+<li>身体抱恙：因为每天面对电脑打字，腱鞘炎和手肘部肌肉僵硬，只要开始打字手肘和手臂就很疼。</li>
+</ul>
+<h3 id="202010"><a class="header" href="#202010">2020.10</a></h3>
+<ul>
+<li>
+<p>结束 PingCAP 实习：手臂实在是吃不消，加上远程实习限制工作所以结束实习了。领导晚上花了三个小时和我沟通工作上的问题以及需要改进的地方，真的非常感动了。于是在辞职信里我写了“<strong>山水有相逢</strong>，我会不断成长，期望在未来的某一天再次与大家相见。”领导和mentor告诉我很多职场发展的建议：</p>
+<ul>
+<li>
+<p>培养技术写作意识，把翻译升级为创译。</p>
+</li>
+<li>
+<p>分享任何内容注意版权问题。</p>
+</li>
+<li>
+<p>专业能力的基础是细心，自检是工作的必要流程：把初步做完的工作放在一边凉一凉等忙完另一个再回头检查。<strong>一个任务交付必须经过三轮自检，建立个人checklist。</strong></p>
+</li>
+<li>
+<p>与其他部门同事沟通注意方式，交代清楚前因后果。</p>
+<ul>
+<li>已读不回，记得提醒。</li>
+<li>再不回，询问 leader,寻求从上而下的支持。</li>
+<li>维护部门形象，是重要且有价值的。</li>
+</ul>
+</li>
+<li>
+<p>件件有回应，事事有着落，凡事有交代。</p>
+<ul>
+<li>
+<p>及时与上级平级沟通哪些可以自己决定，哪些需要向上反馈，知情权，传达。沟通到位有利于自己的工作。</p>
+</li>
+<li>
+<p>整理并<strong>优化自工作流</strong>，记录工作的问题，养成良好工作习惯。</p>
+</li>
+<li>
+<p>用多种方式沟通，预留时间，及时提醒，建立 jira issue 描述背景不容易忘。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>在工作中主动创造价值</strong></p>
+</li>
+<li>
+<p>项目管理是重要的技能 </p>
+<ul>
+<li>
+<p>汇报进度、短期项目</p>
+</li>
+<li>
+<p>列清楚：时间节点和事件（注意DDL）</p>
+</li>
+<li>
+<p>突发事件的风险管理</p>
+</li>
+<li>
+<p>提前沟通</p>
+</li>
+<li>
+<p>信息拉平：重要的时间节点有产出必须要汇报、事情的落地情况要让leader有预期；要让所有利益相关人知道，在组里发布信息，定期总结</p>
+</li>
+</ul>
+</li>
+<li>
+<p>远程工作：在结果上必须更注重严谨和专业</p>
+</li>
+<li>
+<p>mentor 的工作流：</p>
+<ul>
+<li>
+<p>工作日可以利用起来一小部分时间做和工作相关的有利于自己的思考，在更 high-level 看问题。</p>
+</li>
+<li>
+<p><strong>每天的工作是要得到学习的</strong>、有输入而不是机械的工具人。</p>
+</li>
+<li>
+<p>每天花一点时间去读书主动读 Read million posts: newspaper \ tech blogs</p>
+</li>
+<li>
+<p>整理要做什么事情、安排时间</p>
+</li>
+<li>
+<p>做事的过程中记录日报，晚上再总结 </p>
+</li>
+<li>
+<p>换位思考：把已知的东西清楚地表达出来再传递出去，把背景交代清楚。</p>
+</li>
+<li>
+<p>Review: github看：翻译的时候就要注意细节回过头检查比较麻烦。</p>
+<ul>
+<li>
+<p>先看文件层面的</p>
+</li>
+<li>
+<p>提了PR 先draft 再review 一遍</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>写毕业论文</p>
+</li>
+<li>
+<p>参加室友婚礼，与mentor面基</p>
+</li>
+</ul>
+<h3 id="202011"><a class="header" href="#202011">2020.11</a></h3>
+<p>秋招：联影 + Zilliz</p>
+<p>TW 的工作岗位大多都是社招，需要至少一年工作经验，当时接到以上两家实习offer的时候内心挣扎了好久，最后还是决定先去互联网软件的Zilliz，原来行业<strong>同一个岗位的细分方向也是不同的</strong>。</p>
+<h3 id="202012-20212"><a class="header" href="#202012-20212">2020.12-2021.2</a></h3>
+<ul>
+<li>
+<p>参与 Zilliz 实习：总得来说此次实习学到很多，踩了基本上能踩的所有坑。</p>
+<ul>
+<li>技术方面</li>
+</ul>
+<table><thead><tr><th><strong>原因</strong></th><th><strong>提升计划</strong></th></tr></thead><tbody>
+<tr><td>基础技术原理一知半解</td><td><strong>制定具体学习计划</strong>。例如学习数据库、AI、计算机视觉处理、编程语言基础知识</td></tr>
+<tr><td>对 Milvus 项目的了解停留在表面</td><td>自行调研了解 Milvus 用户研读企业知识库资源</td></tr>
+<tr><td>技术写作在实践中缺少自己的方法论</td><td>技术文档竞品研究确定写作的 <strong>checklist</strong><br>起草前先确定篇章、段落、句子之间的<strong>结构</strong></td></tr>
+<tr><td>沟通问题</td><td>调整提问的方式和对象，例如提问要具体有逻辑。<br>增加相关知识培训及时反馈，有始有终</td></tr>
+</tbody></table>
+<ul>
+<li>
+<p>沟通方面</p>
+<ul>
+<li>
+<p>一定要先了解所有技术、熟读知识库所有的东西、问东西才能问到点子上。</p>
+</li>
+<li>
+<p>知其然知其所以然，从宏观的角度理解任务需求。</p>
+</li>
+<li>
+<p>现有自己的思路然后再和老板沟通，问清楚问明白了。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>旁听线上技术传播会议</p>
+</li>
+<li>
+<p>面试：百度、SAP、蚂蚁金服</p>
+</li>
+</ul>
+<h3 id="20213"><a class="header" href="#20213">2021.3</a></h3>
+<ul>
+<li>春招：西门子、远景智能、易保</li>
+<li>研究生毕业答辩</li>
+<li>用 Soul 获得远景内推，加速简历关</li>
+<li>与远景签订三方协议</li>
+</ul>
+<h3 id="20214"><a class="header" href="#20214">2021.4</a></h3>
+<ul>
+<li>研究生毕业旅行：广州自由行</li>
+<li>参与远景提前实习</li>
+</ul>
+<h2 id="达成成就"><a class="header" href="#达成成就">达成成就</a></h2>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+<p>Offer 5/10</p>
+<p>很幸运能够抓住校园招聘的尾巴，顺利以校招生的身份进入一家比较适合自己的企业。以下是我参与秋招与春招的求职记录，中标率50%。</p>
+</li>
+<li>
+<p>秋招：</p>
+</li>
+</ul>
+<table><thead><tr><th>PingCAP（校招）</th><th>华为</th><th>联影（校招）</th><th>Zilliz</th></tr></thead><tbody>
+<tr><td>X远程实习主动性欠缺；Base北京</td><td>X主动邀请我投简历后无音讯</td><td>♥婉拒：医疗器械方向且只写中文文档</td><td>♥婉拒：公司管理以及新人培养不合适</td></tr>
+</tbody></table>
+<ul>
+<li>春招：</li>
+</ul>
+<table><thead><tr><th>百度</th><th>SAP</th><th>蚂蚁金服</th><th>西门子</th><th>远景智能（校招）</th><th>易保</th></tr></thead><tbody>
+<tr><td>X三面挂；缺少系统性思维</td><td>X笔试挂；英文写作速度慢</td><td>X通过三面；人才筛选流程长时间慢；Base杭州；工作压力大</td><td>♥婉拒：福利好待遇差；工作内容比较枯燥只需会用office软件</td><td>♥♣</td><td>♥婉拒：只接受实习以及转岗入职</td></tr>
+</tbody></table>
+<p>（♥ 表示收到 offer；♣表示接受offer；X表示未通过或在流程中）</p>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+思源华为杯一等奖</li>
+<li><input disabled="" type="checkbox" checked=""/>
+在外部 Contributor 帮助下建立个人网页：https://ireneontheway.github.io/</li>
+<li><input disabled="" type="checkbox" checked=""/>
+在实习中结交良师益友</li>
+<li><input disabled="" type="checkbox" checked=""/>
+用 Soul 获得内推</li>
+<li><input disabled="" type="checkbox" checked=""/>
+成为行业会议 tcworld2020 志愿者</li>
+</ul>
+<h2 id="技能升级"><a class="header" href="#技能升级">技能升级</a></h2>
+<ul>
+<li><input disabled="" type="checkbox"/>
+技术：
+<ul>
+<li>编程语言 Python+CSS</li>
+<li>物联网技术</li>
+<li>计算机相关概念</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"/>
+设计
+<ul>
+<li>极简主义</li>
+<li>以用户为中心的内容设计</li>
+<li>审美、色彩、排版</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"/>
+传播
+<ul>
+<li>翻译、语言学</li>
+<li>国外高校培训</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"/>
+产品
+<ul>
+<li>
+<p>学习产品及竞品</p>
+</li>
+<li>
+<p>了解物联网生态圈</p>
+</li>
+<li>
+<p>国内外开源社区生态</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="踩坑心得-tbc"><a class="header" href="#踩坑心得-tbc">踩坑心得 tbc</a></h2>
+<ol>
+<li>实习工作时如何提高效率和沟通效果？</li>
+<li>如何在行业中建立个人品牌？</li>
+<li>如何在生活、工作、学习的平衡中保持创造力？</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../TC_Communication/a_trip_to_tidb.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="../TC_Paper/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../TC_Communication/a_trip_to_tidb.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="../TC_Paper/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+        
+                <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+        
+    </body>
+</html>
