@@ -13,6 +13,8 @@
 * [TC Communication](TC_Communication/index.md)
 
     * [思源华为杯创译大赛创作思路](TC_Communication/思源华为杯创译大赛创作思路.md)
+    * [A trip to TiDB](TC_Communication/a_trip_to_tidb.md)
+    * [First job 求职日记](TC_Communication/求职攻略.md)
 
 * [TC Paper](TC_Paper/index.md)
 
